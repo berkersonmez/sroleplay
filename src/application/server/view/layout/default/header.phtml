@@ -17,10 +17,6 @@
             <a class="brand brand-img" href="<?= C_Link::create("index", "index");?>">
                 <img src="./style/img/scarlogo.png"/>
             </a>
-            <ul class="nav">
-                <li class="active"><a href="#"><?=C_T::_("Anasayfa")?></a></li>
-
-            </ul>
             <?php
                 if (C_Security_Authenticate::loginControl()):
             ?>
