@@ -109,7 +109,7 @@ abstract class M_Player_Base extends M_DBModel {
     }
 
     public function initWithID($id) {
-        $result = C_Database_SQL::executeSQL(self::$_dbo, C_Database_SQL::getSelectQuery1Where1Limit("*", "playeraccounts", "playerLevel", 0), array(1));
+        $result = C_Database_SQL::executeSQL(self::$_dbo, C_Database_SQL::getSelectQuery1Where1Limit("*", "playeraccounts", "playerLevel", 1), array(0));
         print_r($result);
         if (empty($result)) {return false;}
         $this->initSelf($result[0]);
