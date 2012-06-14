@@ -6,7 +6,6 @@ if (!$user->initWithID($userID) || !$user->isApproved()) {
     exit();
 }
 $user->initPlayer();
-$user->initTest();
 $player = $user->getPlayer();
 $playerFieldsArray = $player->getFieldsArray();
 ?>
