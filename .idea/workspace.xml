@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="791c978c-ba26-401b-9e58-19ef56b59fe4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/public/style/img/background-main.jpg" afterPath="$PROJECT_DIR$/src/application/public/style/img/background-main.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/model/player/Base.php" afterPath="$PROJECT_DIR$/src/application/server/model/player/Base.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/public/style/css/main.css" afterPath="$PROJECT_DIR$/src/application/public/style/css/main.css" />
     </list>
     <ignored path="samp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Base.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/server/model/player/Base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="43" selection-start="4239" selection-end="4239" vertical-scroll-proportion="0.7938144">
+            <state line="141" column="43" selection-start="4239" selection-end="4239" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/application/public/style/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="67" selection-start="123" selection-end="123" vertical-scroll-proportion="0.05154639">
               <folding />
             </state>
           </provider>
@@ -106,15 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/server/model/user/Base.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="15" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -131,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/application/public/style/css/main.css" />
         <option value="$PROJECT_DIR$/src/application/server/model/role/Admin.php" />
         <option value="$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/controller/Config.php" />
@@ -147,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/application/server/view/page/management/applyedit.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/controller/Main.php" />
         <option value="$PROJECT_DIR$/src/application/server/model/player/Base.php" />
+        <option value="$PROJECT_DIR$/src/application/public/style/css/main.css" />
       </list>
     </option>
   </component>
@@ -899,6 +900,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Berker\sroleplay\srp\src\application\public\style\img" />
       <recent name="C:\Users\Berker\sroleplay\srp\src\application\server\model\player" />
       <recent name="D:\Arşiv\Dropbox\Is\samp\src\application\public\style\img\skin" />
       <recent name="D:\Arşiv\Dropbox\Is\samp" />
@@ -1044,13 +1046,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/application/server/model/html/form/Register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="10" selection-start="3955" selection-end="3955" vertical-scroll-proportion="-23.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/model/html/form/Login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="10" selection-start="289" selection-end="557" vertical-scroll-proportion="-8.125">
@@ -1151,7 +1146,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/model/player/Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="43" selection-start="4239" selection-end="4239" vertical-scroll-proportion="0.7938144">
+        <state line="141" column="43" selection-start="4239" selection-end="4239" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/public/style/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="67" selection-start="123" selection-end="123" vertical-scroll-proportion="0.05154639">
           <folding />
         </state>
       </provider>
