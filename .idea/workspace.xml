@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="791c978c-ba26-401b-9e58-19ef56b59fe4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/application/server/model/player/Base.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/application/server/view/page/management/index.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/controller/Config.php" afterPath="$PROJECT_DIR$/src/application/server/controller/Config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/model/user/Base.php" afterPath="$PROJECT_DIR$/src/application/server/model/user/Base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml" afterPath="$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/view/page/management/index.phtml" afterPath="$PROJECT_DIR$/src/application/server/view/page/management/index.phtml" />
     </list>
     <ignored path="samp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,7 +64,7 @@
       <file leaf-file-name="index.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="172" selection-start="6622" selection-end="6622" vertical-scroll-proportion="0.5532646">
+            <state line="41" column="157" selection-start="2085" selection-end="2085" vertical-scroll-proportion="0.16395348">
               <folding />
             </state>
           </provider>
@@ -1149,7 +1145,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="172" selection-start="6622" selection-end="6622" vertical-scroll-proportion="0.5532646">
+        <state line="41" column="157" selection-start="2085" selection-end="2085" vertical-scroll-proportion="0.16395348">
           <folding />
         </state>
       </provider>
