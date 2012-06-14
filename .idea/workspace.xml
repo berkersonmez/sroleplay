@@ -37,7 +37,7 @@
       <file leaf-file-name="right.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="35" selection-start="202" selection-end="202" vertical-scroll-proportion="0.07067138">
+            <state line="4" column="15" selection-start="182" selection-end="182" vertical-scroll-proportion="0.07067138">
               <folding />
             </state>
           </provider>
@@ -1029,13 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="49" selection-start="1034" selection-end="1034" vertical-scroll-proportion="-13.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/model/user/Base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="31" selection-start="3075" selection-end="3075" vertical-scroll-proportion="0.0">
@@ -1069,9 +1062,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="49" selection-start="1034" selection-end="1034" vertical-scroll-proportion="-13.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="35" selection-start="202" selection-end="202" vertical-scroll-proportion="0.07067138">
+        <state line="4" column="15" selection-start="182" selection-end="182" vertical-scroll-proportion="0.07067138">
           <folding />
         </state>
       </provider>

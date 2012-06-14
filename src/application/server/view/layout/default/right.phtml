@@ -2,7 +2,7 @@
     <div class="well" style="padding: 8px 0;">
         <?php if (C_Security_Authenticate::loginControl()):
         $user = C_Session::getUser();?>
-        <h3><? C_Session::getUser()->getName(); ?></h3>
+        <h3><?= $user->getName(); ?></h3>
             <? if ($user->isApproved() == 1): ?>
         
         <? elseif ($user->isApproved() == 0): ?>
