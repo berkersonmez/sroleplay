@@ -79,7 +79,7 @@ class M_HTML_Form_Register extends M_HTML_Form_Base {
         <div class="controls">
             <label class="checkbox">
                 <input type="checkbox" id="reg_agreement" name="reg_agreement"/>
-                <?=C_T::_("Çok düzgün bilgiler girdiğimi kabul ediyorum. Oyunda hile yapmayacağım, küfür etmeyeceğim.")?>
+                <strong><?=C_T::_("Çok düzgün bilgiler girdiğimi kabul ediyorum. Oyunda hile yapmayacağım, küfür etmeyeceğim.")?></strong>
             </label>
         </div>
     </div>
