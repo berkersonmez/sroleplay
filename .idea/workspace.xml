@@ -28,7 +28,7 @@
       <file leaf-file-name="Base.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/server/model/player/Base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="30" selection-start="483" selection-end="499" vertical-scroll-proportion="-0.9700599">
+            <state line="113" column="24" selection-start="3509" selection-end="3509" vertical-scroll-proportion="0.52095807">
               <folding />
             </state>
           </provider>
@@ -1142,7 +1142,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/model/player/Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="483" selection-end="499" vertical-scroll-proportion="-0.9700599">
+        <state line="113" column="24" selection-start="3509" selection-end="3509" vertical-scroll-proportion="0.52095807">
           <folding />
         </state>
       </provider>
