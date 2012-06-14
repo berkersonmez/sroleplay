@@ -14,4 +14,4 @@ foreach($playerFieldsArray as $fieldKey => $fieldValue) {
     $newFieldValues[$fieldKey] = $_POST['edit_'.$fieldKey];
 }
 $user->editPlayer($newFieldValues);
-//header("location: ".C_Link::create("management", "index", array("result"=>"5")));
+header("location: ".C_Link::create("management", "index", array("result"=>"5")));
