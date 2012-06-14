@@ -2,15 +2,13 @@
     <div class="well">
         <?php if (C_Security_Authenticate::loginControl()):
         $user = C_Session::getUser();?>
-        <h4 class="bottom-clear"><?= $user->getName(); ?>
+        <h4 class="bottom-clear centered-text"><?= $user->getName(); ?></h4>
             <? if ($user->isApproved() == 1): ?>
-            <span class="label label-success">Onaylandı</span>
         <? elseif ($user->isApproved() == 0): ?>
-            <span class="label label-warning">Beklemede</span>
+            <p><span class="label label-warning">Dikkat</span> Bu karakter henüz onaylanmamıştır!</p>
         <? else: ?>
-            <span class="label label-important">Reddedildi</span>
+            <p><span class="label label-important">Dikkat</span> Bu karakter reddedilmiştir!</p>
         <? endif; ?>
-        </h4>
         <ul class="thumbnails">
             <li class="span1 centered">
                 <div class="thumbnail">

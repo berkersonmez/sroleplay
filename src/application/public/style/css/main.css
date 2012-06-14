@@ -20,3 +20,7 @@ body {
 .bottom-clear {
     padding-bottom: 5px !important;
 }
+
+.centered-text {
+    text-align: center !important;
+}
