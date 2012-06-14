@@ -10,7 +10,7 @@ $player = $user->getPlayer();
 $playerFieldsArray = $player->getFieldsArray();
 $newFieldValues = array();
 foreach($playerFieldsArray as $fieldKey => $fieldValue) {
-    $newFieldValues[$fieldKey] = $_POST[$fieldKey];
+    $newFieldValues[$fieldKey] = $_POST['edit_'.$fieldKey];
 }
 $user->editPlayer($newFieldValues);
 //header("location: ".C_Link::create("management", "index", array("result"=>"5")));
