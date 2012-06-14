@@ -129,10 +129,10 @@ class M_HTML_Form_Register extends M_HTML_Form_Base {
                         reg_public:regPublic,
                         reg_agreement:regAgreement,
                         ark:ARK},
-                    dataType: "json",
+                    //dataType: "json",
                     success: function(data){
                         $("#submit_reg").removeAttr("disabled").removeClass("disabled");
-                        $("#ajax-result").empty().append(ajaxResponse(data));
+                        $("#ajax-result").empty().append(data);
                         if (ajaxSuccess) {
                             window.location = 'index.php?register=successful';
                         }

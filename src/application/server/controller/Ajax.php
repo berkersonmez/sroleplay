@@ -28,7 +28,7 @@ class C_Ajax {
 
     private function responseJSON($type, $response)
     {
-        header('Content-type: application/json');
+        //header('Content-type: application/json');
         echo $this->constructJSON($this->responseTypeToInt($type), $response);
     }
 
