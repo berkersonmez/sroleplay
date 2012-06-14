@@ -7,3 +7,7 @@ body {
     padding: 3px 10px 4px 10px !important;
     margin: 7px 10px 6px 0px !important;
 }
+
+.hero-unit {
+    background-image: url('../img/hero-bg.jpg') !important;
+}
