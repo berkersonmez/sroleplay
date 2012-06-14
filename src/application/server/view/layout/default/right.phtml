@@ -6,9 +6,7 @@
             <? if ($user->isApproved() == 1): ?>
             <span class="label label-success">Onaylandı</span>
         <? elseif ($user->isApproved() == 0): ?>
-        <div class="alert alert-block">
             <span class="label label-warning">Beklemede</span>
-        </div>
         <? else: ?>
             <span class="label label-important">Reddedildi</span>
         <? endif; ?>
