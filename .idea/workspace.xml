@@ -55,7 +55,7 @@
       <file leaf-file-name="header.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="83" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.3886926">
+            <state line="30" column="40" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.42402828">
               <folding />
             </state>
           </provider>
@@ -1128,7 +1128,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="83" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.3886926">
+        <state line="30" column="40" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.42402828">
           <folding />
         </state>
       </provider>
