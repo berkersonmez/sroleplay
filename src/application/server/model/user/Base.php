@@ -111,7 +111,23 @@ abstract class M_User_Base extends M_DBModel {
         $this->player = $player;
     }
 
+    public function update() {
+        C_Database_SQL::executeSQL(self::$_dbo, C_Database_SQL::getUpdateQuery1Where(array("name", "email", "publicProfile", "age", "gender", "biography", "sqlid", "skinID"), "paneluser", 8, "id"), array($this->name, $this->email, $this->publicProfile, $this->age, $this->gender, $this->biography, $this->sqlid, $this->skinID, $this->id));
+        $this->maintainRole();
+        $this->maintainSkin();
+        return true;
+    }
+
     public function editPlayer($newFieldsArray) {
+        $this->name = $newFieldsArray['playerName'];
+        $this->email = $newFieldsArray['playerEmail'];
+        $this->publicProfile = $newFieldsArray['playerPublicProfile'];
+        $this->age = $newFieldsArray['playerAge'];
+        $this->gender = $newFieldsArray['playerGender'];
+        $this->biography = $newFieldsArray['playerBiography'];
+        $this->sqlid = $newFieldsArray['sqlid'];
+        $this->skinID = $newFieldsArray['playerSkin'];
+        $this->update();
         $this->player->edit($newFieldsArray);
     }
 
