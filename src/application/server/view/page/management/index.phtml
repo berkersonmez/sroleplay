@@ -78,7 +78,7 @@
                                 <td><?= $userObj->getEmail(); ?></td>
                                 <td><?= $userObj->getAge(); ?></td>
                                 <td><? if ($userObj->getGender() == 0) {print "Biseksüel";} elseif ($userObj->getGender() == 1) {print "Erkek";} else {print "Kadın";} ?></td>
-                                <td><?= mb_substr($userObj->getBiography(), 0, C_Config::BIOGRAPHY_PREVIEW_MAX_CHARACTERS); ?></td>
+                                <td><?= mb_substr($userObj->getBiography(), 0, C_Config::BIOGRAPHY_PREVIEW_MAX_CHARACTERS); ?>...</td>
                                 <td><?= $userObj->getRole()->getName(); ?></td>
                                 <td><?= $userObj->getSkinID(); ?></td>
                                 <td><?= $userObj->getSqlid(); ?></td>
@@ -141,7 +141,7 @@
                                 <td><?= $userObj->getEmail(); ?></td>
                                 <td><?= $userObj->getAge(); ?></td>
                                 <td><? if ($userObj->getGender() == 0) {print "Biseksüel";} elseif ($userObj->getGender() == 1) {print "Erkek";} else {print "Kadın";} ?></td>
-                                <td><?= mb_substr($userObj->getBiography(), 0, C_Config::BIOGRAPHY_PREVIEW_MAX_CHARACTERS); ?></td>
+                                <td><?= mb_substr($userObj->getBiography(), 0, C_Config::BIOGRAPHY_PREVIEW_MAX_CHARACTERS); ?>...</td>
                                 <td><?= $userObj->getRole()->getName(); ?></td>
                                 <td><?= $userObj->getSkinID(); ?></td>
                                 <td><?= $userObj->getSqlid(); ?></td>
@@ -204,7 +204,7 @@
                                 <td><?= $userObj->getEmail(); ?></td>
                                 <td><?= $userObj->getAge(); ?></td>
                                 <td><? if ($userObj->getGender() == 0) {print "Biseksüel";} elseif ($userObj->getGender() == 1) {print "Erkek";} else {print "Kadın";} ?></td>
-                                <td><?= mb_substr($userObj->getBiography(), 0, C_Config::BIOGRAPHY_PREVIEW_MAX_CHARACTERS); ?></td>
+                                <td><?= mb_substr($userObj->getBiography(), 0, C_Config::BIOGRAPHY_PREVIEW_MAX_CHARACTERS); ?>...</td>
                                 <td><?= $userObj->getRole()->getName(); ?></td>
                                 <td><?= $userObj->getSkinID(); ?></td>
                                 <td><?= $userObj->getSqlid(); ?></td>

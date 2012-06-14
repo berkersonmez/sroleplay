@@ -77,7 +77,7 @@ abstract class M_User_Base extends M_DBModel {
     public function createPlayerFromAndApproveSelf() {
         $result = C_Database_SQL::executeInsertSQL(self::$_dbo, C_Database_SQL::getInsertQuery(array("playerName", "playerPassword", "playerEmail", "playerPublicProfile", "playerAge", "playerBiography", "playerGender", "playerSkin", "sqlid"), "playeraccounts", 9),
             array($this->name, $this->password, $this->email, $this->publicProfile, $this->age, $this->biography, $this->gender, $this->skinID, $this->sqlid));
-        if (empty($result)) {return false;}
+        if (empty($result)) {return true;}
         $this->playerID = $result;
         C_Database_SQL::executeSQL(self::$_dbo, C_Database_SQL::getUpdateQuery1Where(array("playerID", "approved"), "paneluser", 2, "id"), array($result, 1, $this->id));
         return true;
