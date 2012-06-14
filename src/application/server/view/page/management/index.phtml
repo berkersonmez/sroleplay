@@ -1,4 +1,8 @@
-<div class="span8">
+<? if (C_Main::getPage() == "management"): ?>
+<div class="span12">
+    <? else: ?>
+    <div class="span8">
+    <? endif; ?>
     <h2>Admin Paneli</h2>
     <h3>Oyuncu Listesi</h3>
     <div class="accordion" id="accordion2">

@@ -1,3 +1,4 @@
+<? if (C_Main::getPage() != "management"): ?>
 <div class="span4">
     <div class="well">
         <?php if (C_Security_Authenticate::loginControl()):
@@ -22,3 +23,4 @@
     <? endif; ?>
     </div>
 </div>
+<? endif; ?>

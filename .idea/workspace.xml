@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="791c978c-ba26-401b-9e58-19ef56b59fe4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml" afterPath="$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/view/page/management/index.phtml" afterPath="$PROJECT_DIR$/src/application/server/view/page/management/index.phtml" />
     </list>
     <ignored path="samp.iws" />
@@ -64,7 +65,16 @@
       <file leaf-file-name="index.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="69" selection-start="6003" selection-end="6003" vertical-scroll-proportion="0.075581394">
+            <state line="3" column="23" selection-start="106" selection-end="106" vertical-scroll-proportion="0.05232558">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="right.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="45" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -106,15 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/footer.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="45" selection-start="179" selection-end="179" vertical-scroll-proportion="-3.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -139,13 +140,13 @@
         <option value="$PROJECT_DIR$/src/application/server/model/html/form/Register.php" />
         <option value="$PROJECT_DIR$/src/application/server/view/page/index/index.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/view/layout/default/footer.phtml" />
-        <option value="$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml" />
         <option value="$PROJECT_DIR$/src/application/public/style/css/main.css" />
         <option value="$PROJECT_DIR$/src/application/server/model/role/Admin.php" />
         <option value="$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/model/player/Base.php" />
         <option value="$PROJECT_DIR$/src/application/server/model/user/Base.php" />
         <option value="$PROJECT_DIR$/src/application/server/controller/Config.php" />
+        <option value="$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/view/page/management/index.phtml" />
       </list>
     </option>
@@ -1059,13 +1060,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="175" selection-end="188" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/model/role/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="30" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
@@ -1143,9 +1137,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="45" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="69" selection-start="6003" selection-end="6003" vertical-scroll-proportion="0.075581394">
+        <state line="3" column="23" selection-start="106" selection-end="106" vertical-scroll-proportion="0.05232558">
           <folding />
         </state>
       </provider>
