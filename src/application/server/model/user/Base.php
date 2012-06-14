@@ -123,7 +123,7 @@ abstract class M_User_Base extends M_DBModel {
     }
 
     public function maintainSkin() {
-        $this->skin = new M_Image_User($this->id);
+        $this->skin = new M_Image_User($this->skinID);
     }
 
     public function printSkin($width, $height) {

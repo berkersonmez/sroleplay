@@ -9,9 +9,9 @@ if ($user->initWithID($userID)) {
             exit();
         }
     else
-        if ($user->hireAdmin()) {
+        if ($user->hireAdmin()) { print "zwww";
             header("location: ".C_Link::create("management", "index", array("result"=>"3")));
             exit();
         }
 }
-header("location: ".C_Link::create("management", "index", array("result"=>"-3")));
+//header("location: ".C_Link::create("management", "index", array("result"=>"-3")));

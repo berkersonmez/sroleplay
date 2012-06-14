@@ -4,8 +4,6 @@
     <list default="true" id="791c978c-ba26-401b-9e58-19ef56b59fe4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/model/user/Base.php" afterPath="$PROJECT_DIR$/src/application/server/model/user/Base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/view/page/management/approve.phtml" afterPath="$PROJECT_DIR$/src/application/server/view/page/management/approve.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/view/page/management/reject.phtml" afterPath="$PROJECT_DIR$/src/application/server/view/page/management/reject.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/view/page/management/toggleadmin.phtml" afterPath="$PROJECT_DIR$/src/application/server/view/page/management/toggleadmin.phtml" />
     </list>
     <ignored path="samp.iws" />
@@ -28,28 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Login.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/server/model/html/form/Login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Regular.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/server/model/player/Regular.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="39" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="toggleadmin.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/toggleadmin.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="19" selection-start="532" selection-end="532" vertical-scroll-proportion="0.22336769">
+            <state line="11" column="47" selection-start="432" selection-end="432" vertical-scroll-proportion="0.18900344">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/server/model/player/Base.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="36" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -67,7 +56,16 @@
       <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/server/model/image/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="5" column="42" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/server/model/image/Base.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -94,7 +92,7 @@
       <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/server/model/user/Base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="20" selection-start="2805" selection-end="2805" vertical-scroll-proportion="0.0">
+            <state line="100" column="20" selection-start="4293" selection-end="4293" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,9 +144,9 @@
         <option value="$PROJECT_DIR$/src/application/server/model/player/Regular.php" />
         <option value="$PROJECT_DIR$/src/application/server/model/player/Base.php" />
         <option value="$PROJECT_DIR$/src/application/server/view/page/management/index.phtml" />
-        <option value="$PROJECT_DIR$/src/application/server/model/user/Base.php" />
         <option value="$PROJECT_DIR$/src/application/server/view/page/management/approve.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/view/page/management/reject.phtml" />
+        <option value="$PROJECT_DIR$/src/application/server/model/user/Base.php" />
         <option value="$PROJECT_DIR$/src/application/server/view/page/management/toggleadmin.phtml" />
       </list>
     </option>
@@ -1047,20 +1045,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/application/server/view/page/logout/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="73" selection-end="158" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/model/player/Base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="36" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/model/user/Regular.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="766" vertical-scroll-proportion="0.0">
@@ -1103,14 +1087,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/index.phtml">
+    <entry file="file://$PROJECT_DIR$/src/application/server/model/player/Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="32" selection-start="8854" selection-end="8854" vertical-scroll-proportion="-18.5">
+        <state line="25" column="36" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/model/image/User.php">
+    <entry file="file://$PROJECT_DIR$/src/application/server/model/role/Guest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -1124,23 +1108,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/model/role/Guest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/model/user/Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="20" selection-start="2805" selection-end="2805" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/approve.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="313" selection-end="320" vertical-scroll-proportion="0.0">
+        <state line="100" column="20" selection-start="4293" selection-end="4293" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1152,9 +1122,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/approve.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="8" selection-start="313" selection-end="320" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/server/model/image/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/server/model/image/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="42" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="32" selection-start="8854" selection-end="8854" vertical-scroll-proportion="-18.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/toggleadmin.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="19" selection-start="532" selection-end="532" vertical-scroll-proportion="0.22336769">
+        <state line="11" column="47" selection-start="432" selection-end="432" vertical-scroll-proportion="0.18900344">
           <folding />
         </state>
       </provider>
