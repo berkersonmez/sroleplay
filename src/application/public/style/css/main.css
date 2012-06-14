@@ -11,3 +11,8 @@ body {
 .hero-unit {
     background-image: url('../img/hero-bg.jpg') !important;
 }
+
+.centered {
+    margin: 0 auto;
+    float: none;
+}
