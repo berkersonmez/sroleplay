@@ -129,12 +129,11 @@ abstract class M_Player_Base extends M_DBModel {
     public function edit($newFieldsArray) {
         print_r($newFieldsArray);
         $this->initSelf($newFieldsArray);
-        $this->updateSelf();
+        $this->updateSelf($newFieldsArray);
     }
 
-    public function updateSelf() {
-        $array = $this->getFieldsArray();
-        C_Database_SQL::executeSQL(self::$_dbo, C_Database_SQL::getUpdateQuery1Where(array_keys($array), "playeraccounts", count($array), "playerID"), array_merge(array_values($array), array($this->playerID)));
+    public function updateSelf($newFieldsArray) {
+        C_Database_SQL::executeSQL(self::$_dbo, C_Database_SQL::getUpdateQuery1Where(array_keys($newFieldsArray), "playeraccounts", count($newFieldsArray), "playerID"), array_merge(array_values($newFieldsArray), array($this->playerID)));
     }
 
 }
