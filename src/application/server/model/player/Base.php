@@ -140,11 +140,16 @@ abstract class M_Player_Base extends M_DBModel {
 
     public function updateSelf($newFieldsArray) {
         unset($newFieldsArray["playerID"]);
+        foreach($newFieldsArray as $key => $value) {
+            C_Database_SQL::executeSQL(self::$_dbo, C_Database_SQL::getUpdateQuery1Where(array($key), "playeraccounts", 1, "playerID"), array($value, $this->playerID));
+        }
+    /*
+        unset($newFieldsArray["playerID"]);
         $query = C_Database_SQL::getUpdateQuery1Where(array_keys($newFieldsArray), "playeraccounts", count($newFieldsArray), "playerID");
         print($query);
         C_Database_SQL::executeSQL(self::$_dbo, $query, array_merge(array_values($newFieldsArray), array($this->playerID)));
         print("<br><br>");
-        print_r(array_merge(array_values($newFieldsArray), array($this->playerID)));
+        print_r(array_merge(array_values($newFieldsArray), array($this->playerID)));*/
     }
 
     public function getPlayerMoney()
