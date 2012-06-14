@@ -27,9 +27,9 @@
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"><i class="icon-user"></i> <?=C_T::_("Profil")?></a></li>
+                        <li><a href="<?=C_Link::create("profile", "index");?>"><i class="icon-user"></i> <?=C_T::_("Profil")?></a></li>
                         <? if (C_Session::getUser()->getRole()->canAccessManagementPanel()): ?>
-                        <li><a href="#"><i class="icon-lock"></i> <?=C_T::_("Admin")?></a></li>
+                        <li><a href="<?=C_Link::create("management", "index");?>"><i class="icon-lock"></i> <?=C_T::_("Admin")?></a></li>
                         <? endif; ?>
                         <li class="divider"></li>
                         <li><a href="<?=C_Link::create("logout", "index");?>"><i class="icon-off"></i> <?=C_T::_("Çıkış Yap")?></a></li>
@@ -38,10 +38,7 @@
             </ul>
             <?php
                 else:
-            ?><!--
-                    <ul class="pull-right nav">
-                        <li><a href="#"><span class="label label-info">Üye ol!</span></a></li>
-                    </ul>-->
+            ?>
                     <div class="pull-right nav">
                         <a class="btn btn-primary btn-nav" href="<?= C_Link::create("registry", "index");?>"><?=C_T::_("Kaydol!")?></a>
                         <a class="btn btn-nav" href="<?= C_Link::create("login", "index");?>"><?=C_T::_("Giriş Yap!")?></a>

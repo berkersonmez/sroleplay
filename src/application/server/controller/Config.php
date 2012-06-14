@@ -25,6 +25,8 @@ class C_Config {
     const MIN_AGE = 13;
     const MAX_AGE = 65;
 
+    const BIOGRAPHY_PREVIEW_MAX_CHARACTERS = 20;
+
     /* Development */
     const VERSION_NO = "0.0.1";
     const MAINTENANCE_RESTRICTION = false;

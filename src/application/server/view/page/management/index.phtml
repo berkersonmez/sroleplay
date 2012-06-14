@@ -1,0 +1,168 @@
+<div class="span8">
+    <h2>Admin Paneli</h2>
+    <h3>Oyuncu Listesi</h3>
+    <div class="accordion" id="accordion2">
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                    Onay Bekleyen Oyuncular
+                </a>
+            </div>
+            <div id="collapseOne" class="accordion-body collapse" style="height: 0px; ">
+                <div class="accordion-inner">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Ad</th>
+                            <th>E-mail</th>
+                            <th>Yaş</th>
+                            <th>Cinsiyet</th>
+                            <th>Bio</th>
+                            <th>Rol</th>
+                            <th>Skin</th>
+                            <th>sqlid</th>
+                            <th>İşlem</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <?php
+                        $result = C_Database_SQL::executeSQL(C_Database_Handler::getDBO(), C_Database_SQL::getSelectQuery1Where("*", "playeraccounts", "approved"), array(0));
+                        if ($result) {
+                            foreach ($result as $resultNo => $user) {
+                                $userObj = new M_User_Regular();
+                                $userObj->initWithSQLResult($user);
+                                ?>
+                            <tr>
+                                <td><?= $userObj->getID(); ?></td>
+                                <td><?= $userObj->getName(); ?></td>
+                                <td><?= $userObj->getEmail(); ?></td>
+                                <td><?= $userObj->getAge(); ?></td>
+                                <td><?= if ($userObj->getGender() == 0) {"Biseksüel";} elseif ($userObj->getGender() == 1) {"Erkek";} else {"Kadın";}; ?></td>
+                                <td><?= mb_substr($userObj->getBiography(), 0, C_Config::BIOGRAPHY_PREVIEW_MAX_CHARACTERS); ?></td>
+                                <td><?= $userObj->getRole()->getName(); ?></td>
+                                <td><?= $userObj->getSkinID(); ?></td>
+                                <td><?= $userObj->getSqlid(); ?></td>
+                                <td>sth</td>
+
+                            </tr>
+                                <?
+                            }
+                        }
+                        ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                    Onaylanmış Oyuncular
+                </a>
+            </div>
+            <div id="collapseTwo" class="accordion-body in collapse" style="height: auto; ">
+                <div class="accordion-inner">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Ad</th>
+                            <th>E-mail</th>
+                            <th>Yaş</th>
+                            <th>Cinsiyet</th>
+                            <th>Bio</th>
+                            <th>Rol</th>
+                            <th>Skin</th>
+                            <th>sqlid</th>
+                            <th>İşlem</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <?php
+                        $result = C_Database_SQL::executeSQL(C_Database_Handler::getDBO(), C_Database_SQL::getSelectQuery1Where("*", "playeraccounts", "approved"), array(1));
+                        if ($result) {
+                            foreach ($result as $resultNo => $user) {
+                                $userObj = new M_User_Regular();
+                                $userObj->initWithSQLResult($user);
+                                ?>
+                            <tr>
+                                <td><?= $userObj->getID(); ?></td>
+                                <td><?= $userObj->getName(); ?></td>
+                                <td><?= $userObj->getEmail(); ?></td>
+                                <td><?= $userObj->getAge(); ?></td>
+                                <td><?= if ($userObj->getGender() == 0) {"Biseksüel";} elseif ($userObj->getGender() == 1) {"Erkek";} else {"Kadın";}; ?></td>
+                                <td><?= mb_substr($userObj->getBiography(), 0, C_Config::BIOGRAPHY_PREVIEW_MAX_CHARACTERS); ?></td>
+                                <td><?= $userObj->getRole()->getName(); ?></td>
+                                <td><?= $userObj->getSkinID(); ?></td>
+                                <td><?= $userObj->getSqlid(); ?></td>
+                                <td>sth</td>
+
+                            </tr>
+                                <?
+                            }
+                        }
+                        ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                    Reddedilmiş Oyuncular
+                </a>
+            </div>
+            <div id="collapseThree" class="accordion-body collapse" style="height: 0px; ">
+                <div class="accordion-inner">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Ad</th>
+                            <th>E-mail</th>
+                            <th>Yaş</th>
+                            <th>Cinsiyet</th>
+                            <th>Bio</th>
+                            <th>Rol</th>
+                            <th>Skin</th>
+                            <th>sqlid</th>
+                            <th>İşlem</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <?php
+                        $result = C_Database_SQL::executeSQL(C_Database_Handler::getDBO(), C_Database_SQL::getSelectQuery1Where("*", "playeraccounts", "approved"), array(-1));
+                        if ($result) {
+                            foreach ($result as $resultNo => $user) {
+                                $userObj = new M_User_Regular();
+                                $userObj->initWithSQLResult($user);
+                                ?>
+                            <tr>
+                                <td><?= $userObj->getID(); ?></td>
+                                <td><?= $userObj->getName(); ?></td>
+                                <td><?= $userObj->getEmail(); ?></td>
+                                <td><?= $userObj->getAge(); ?></td>
+                                <td><?= if ($userObj->getGender() == 0) {"Biseksüel";} elseif ($userObj->getGender() == 1) {"Erkek";} else {"Kadın";}; ?></td>
+                                <td><?= mb_substr($userObj->getBiography(), 0, C_Config::BIOGRAPHY_PREVIEW_MAX_CHARACTERS); ?></td>
+                                <td><?= $userObj->getRole()->getName(); ?></td>
+                                <td><?= $userObj->getSkinID(); ?></td>
+                                <td><?= $userObj->getSqlid(); ?></td>
+                                <td>sth</td>
+
+                            </tr>
+                                <?
+                            }
+                        }
+                        ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

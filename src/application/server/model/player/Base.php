@@ -1,21 +1,6 @@
 <?php
 
-abstract class M_User_Base extends M_DBModel {
-
-    protected $id;
-    protected $name;
-    protected $password;
-    protected $email;
-    protected $publicProfile;
-    protected $age;
-    protected $gender;
-    protected $biography;
-    protected $sqlid;
-    protected $roleID;
-    protected $role;
-    protected $skinID;
-    protected $approved;
-    protected $skin;
+abstract class M_Player_Base extends M_DBModel {
 
     public function __construct($id = "", $name = "", $password = "", $email = "", $publicProfile = "", $age = "", $gender = "", $biography = "", $sqlid = "", $roleID = "", $skinID = "", $approved = "") {
         parent::__construct();
@@ -39,15 +24,6 @@ abstract class M_User_Base extends M_DBModel {
         $result = C_Database_SQL::executeSQL(self::$_dbo, C_Database_SQL::getSelectQuery1Where1Limit("*", "paneluser", "id", 1), array($id));
         if (empty($result)) {return false;}
         $this->initSelf($result[0]);
-        $this->maintainRole();
-        $this->maintainSkin();
-        return true;
-    }
-
-    public function initWithSQLResult($sqlResult) {
-        $result = $sqlResult;
-        if (empty($result)) {return false;}
-        $this->initSelf($result);
         $this->maintainRole();
         $this->maintainSkin();
         return true;

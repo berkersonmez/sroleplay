@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="791c978c-ba26-401b-9e58-19ef56b59fe4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/application/server/model/player/Base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/application/server/view/page/management/index.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/controller/Config.php" afterPath="$PROJECT_DIR$/src/application/server/controller/Config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/model/user/Base.php" afterPath="$PROJECT_DIR$/src/application/server/model/user/Base.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml" afterPath="$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml" />
     </list>
     <ignored path="samp.iws" />
@@ -25,15 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/server/model/role/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="30" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/server/model/role/Base.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,19 +47,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="right.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml">
+      <file leaf-file-name="header.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="32" selection-start="175" selection-end="188" vertical-scroll-proportion="-2.5">
+            <state line="40" column="14" selection-start="2040" selection-end="2040" vertical-scroll-proportion="-21.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Guest.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/server/model/user/Guest.php">
+      <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/server/model/player/Base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="29" column="5" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.phtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="138" column="172" selection-start="6622" selection-end="6622" vertical-scroll-proportion="0.5532646">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/server/controller/Config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="42" selection-start="1823" selection-end="1855" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,16 +86,16 @@
       <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/server/model/user/Base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="35" selection-start="2693" selection-end="2693" vertical-scroll-proportion="0.0">
+            <state line="53" column="5" selection-start="1683" selection-end="1683" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.phtml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml">
+      <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/server/view/page/index/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="16" selection-start="876" selection-end="876" vertical-scroll-proportion="0.31095406">
+            <state line="19" column="29" selection-start="0" selection-end="822" vertical-scroll-proportion="-11.875">
               <folding />
             </state>
           </provider>
@@ -106,15 +119,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/public/style/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="6" selection-start="418" selection-end="423" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -131,10 +135,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/application/server/controller/security/Authenticate.php" />
-        <option value="$PROJECT_DIR$/src/application/server/view/page/registry/index.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/model/html/form/Login.php" />
-        <option value="$PROJECT_DIR$/src/application/server/controller/Config.php" />
         <option value="$PROJECT_DIR$/src/application/server/controller/Ajax.php" />
         <option value="$PROJECT_DIR$/src/application/server/controller/Link.php" />
         <option value="$PROJECT_DIR$/src/application/server/view/page/ajax/signup.phtml" />
@@ -142,11 +143,14 @@
         <option value="$PROJECT_DIR$/src/application/server/model/html/form/Register.php" />
         <option value="$PROJECT_DIR$/src/application/server/view/page/index/index.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/view/layout/default/footer.phtml" />
-        <option value="$PROJECT_DIR$/src/application/server/model/user/Base.php" />
         <option value="$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml" />
         <option value="$PROJECT_DIR$/src/application/public/style/css/main.css" />
         <option value="$PROJECT_DIR$/src/application/server/model/role/Admin.php" />
         <option value="$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml" />
+        <option value="$PROJECT_DIR$/src/application/server/model/player/Base.php" />
+        <option value="$PROJECT_DIR$/src/application/server/model/user/Base.php" />
+        <option value="$PROJECT_DIR$/src/application/server/controller/Config.php" />
+        <option value="$PROJECT_DIR$/src/application/server/view/page/management/index.phtml" />
       </list>
     </option>
   </component>
@@ -251,6 +255,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="registry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="samp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="srp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="management" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -566,6 +604,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="samp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="srp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="image" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -831,6 +899,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Berker\sroleplay\srp\src\application\server\model\player" />
       <recent name="D:\Arşiv\Dropbox\Is\samp\src\application\public\style\img\skin" />
       <recent name="D:\Arşiv\Dropbox\Is\samp" />
     </key>
@@ -975,34 +1044,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/application/server/controller/security/Validation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="44" selection-start="2312" selection-end="2312" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/view/page/login/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="183" selection-end="183" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/view/page/index/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="29" selection-start="736" selection-end="736" vertical-scroll-proportion="-11.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/view/page/registry/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="175" selection-end="175" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/ajax/right.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1025,13 +1066,6 @@
     <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="32" selection-start="175" selection-end="188" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/model/user/Base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="35" selection-start="2693" selection-end="2693" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1064,9 +1098,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/model/role/Admin.php">
+    <entry file="file://$PROJECT_DIR$/src/application/server/view/page/index/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="1" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
+        <state line="19" column="29" selection-start="0" selection-end="822" vertical-scroll-proportion="-11.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="14" selection-start="2040" selection-end="2040" vertical-scroll-proportion="-21.625">
           <folding />
         </state>
       </provider>
@@ -1078,9 +1119,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml">
+    <entry file="file://$PROJECT_DIR$/src/application/server/model/role/Admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="876" selection-end="876" vertical-scroll-proportion="0.31095406">
+        <state line="11" column="1" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/server/model/player/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="5" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/server/model/user/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="5" selection-start="1683" selection-end="1683" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/server/controller/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="42" selection-start="1823" selection-end="1855" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="172" selection-start="6622" selection-end="6622" vertical-scroll-proportion="0.5532646">
           <folding />
         </state>
       </provider>
