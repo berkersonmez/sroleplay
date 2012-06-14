@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="791c978c-ba26-401b-9e58-19ef56b59fe4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/model/user/Base.php" afterPath="$PROJECT_DIR$/src/application/server/model/user/Base.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml" afterPath="$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml" />
     </list>
     <ignored path="samp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="right.phtml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="right.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="54" selection-start="728" selection-end="728" vertical-scroll-proportion="-10.625">
+            <state line="16" column="47" selection-start="675" selection-end="675" vertical-scroll-proportion="0.28268552">
               <folding />
             </state>
           </provider>
@@ -61,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Base.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/server/model/user/Base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="29" selection-start="2931" selection-end="2931" vertical-scroll-proportion="0.627907">
+            <state line="81" column="29" selection-start="2931" selection-end="2931" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,8 +136,8 @@
         <option value="$PROJECT_DIR$/src/application/public/style/css/main.css" />
         <option value="$PROJECT_DIR$/src/application/server/view/page/index/index.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/view/layout/default/footer.phtml" />
-        <option value="$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/model/user/Base.php" />
+        <option value="$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml" />
       </list>
     </option>
   </component>
@@ -1029,20 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/footer.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="45" selection-start="179" selection-end="179" vertical-scroll-proportion="-3.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/controller/security/Authenticate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="49" selection-start="1034" selection-end="1034" vertical-scroll-proportion="-13.125">
@@ -1062,16 +1048,30 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml">
+    <entry file="file://$PROJECT_DIR$/src/application/server/model/user/Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="54" selection-start="728" selection-end="728" vertical-scroll-proportion="-10.625">
+        <state line="81" column="29" selection-start="2931" selection-end="2931" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/model/user/Base.php">
+    <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/footer.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="29" selection-start="2931" selection-end="2931" vertical-scroll-proportion="0.627907">
+        <state line="6" column="45" selection-start="179" selection-end="179" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/server/controller/security/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="5" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="47" selection-start="675" selection-end="675" vertical-scroll-proportion="0.28268552">
           <folding />
         </state>
       </provider>
