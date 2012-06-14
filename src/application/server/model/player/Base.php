@@ -102,6 +102,9 @@ abstract class M_Player_Base extends M_DBModel {
     protected $playerAdminTitle;
     protected $playerCarLicensePlate;
     protected $playerAdminPIN;
+    protected $playerVirtualWorld;
+    protected $playerGroup;
+    protected $playerDropCarTimeout;
     protected $sqlid;
 
     public function __construct() {

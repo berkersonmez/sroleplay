@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="791c978c-ba26-401b-9e58-19ef56b59fe4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/controller/Main.php" afterPath="$PROJECT_DIR$/src/application/server/controller/Main.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/model/player/Base.php" afterPath="$PROJECT_DIR$/src/application/server/model/player/Base.php" />
     </list>
     <ignored path="samp.iws" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="Base.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/server/model/player/Base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="22" selection-start="4256" selection-end="4256" vertical-scroll-proportion="0.8231132">
+            <state line="106" column="36" selection-start="3243" selection-end="3243" vertical-scroll-proportion="0.7606132">
               <folding />
             </state>
           </provider>
@@ -1152,7 +1151,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/model/player/Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="22" selection-start="4256" selection-end="4256" vertical-scroll-proportion="0.8231132">
+        <state line="106" column="36" selection-start="3243" selection-end="3243" vertical-scroll-proportion="0.7606132">
           <folding />
         </state>
       </provider>
