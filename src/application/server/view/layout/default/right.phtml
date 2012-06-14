@@ -2,17 +2,17 @@
     <div class="well">
         <?php if (C_Security_Authenticate::loginControl()):
         $user = C_Session::getUser();?>
-        <h4><?= $user->getName(); ?></h4>
+        <h4><?= $user->getName(); ?>
             <? if ($user->isApproved() == 1): ?>
-        <p>Durum: <span class="label label-success">Onaylandı</span></p>
+            <span class="label label-success">Onaylandı</span>
         <? elseif ($user->isApproved() == 0): ?>
         <div class="alert alert-block">
-            <p>Durum: <span class="label label-warning">Beklemede</span></p>
-            
+            <span class="label label-warning">Beklemede</span>
         </div>
         <? else: ?>
-            <p>Durum: <span class="label label-important">Reddedildi</span></p>
+            <span class="label label-important">Reddedildi</span>
         <? endif; ?>
+        </h4>
     <? else: ?>
 
     <? endif; ?>
