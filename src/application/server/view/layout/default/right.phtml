@@ -4,15 +4,14 @@
         $user = C_Session::getUser();?>
         <h4><?= $user->getName(); ?></h4>
             <? if ($user->isApproved() == 1): ?>
-        
+        <p>Durum: <span class="label label-success">Onaylandı</span></p>
         <? elseif ($user->isApproved() == 0): ?>
         <div class="alert alert-block">
-            <h4 class="alert-heading">Dikkat!</h4>
-            Bu karakter henüz onaylanmamıştır.
+            <p>Durum: <span class="label label-warning">Beklemede</span></p>
+            
         </div>
         <? else: ?>
-            <span class="label label-important">Dikkat!</span>
-            Bu karakter reddedilmiştir.
+            <p>Durum: <span class="label label-important">Reddedildi</span></p>
         <? endif; ?>
     <? else: ?>
 
