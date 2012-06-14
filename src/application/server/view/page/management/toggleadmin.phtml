@@ -4,18 +4,16 @@ $userID = C_Security_Filter::queryFilter(C_Security_Filter::numericFilter($_GET[
 $user = new M_User_Regular();
 if ($user->initWithID($userID)) {
     if ($user->getRole()->canAccessManagementPanel()) {
-        if ($user->fireAdmin()) { print "zaa1";
+        if ($user->fireAdmin()) {
             header("location: ".C_Link::create("management", "index", array("result"=>"4")));
             exit();
         }
-        print "zaa2";
     } else {
-        print "zaa3";
-        if ($user->hireAdmin()) {print "zaa4";
+        if ($user->hireAdmin()) {
             header("location: ".C_Link::create("management", "index", array("result"=>"3")));
             exit();
 
         }
     }
 }
-//header("location: ".C_Link::create("management", "index", array("result"=>"-3")));
+header("location: ".C_Link::create("management", "index", array("result"=>"-3")));
