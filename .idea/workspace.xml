@@ -91,7 +91,7 @@
       <file leaf-file-name="applyedit.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/applyedit.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="14" selection-start="542" selection-end="542" vertical-scroll-proportion="0.22336769">
+            <state line="14" column="54" selection-start="606" selection-end="606" vertical-scroll-proportion="0.24054983">
               <folding />
             </state>
           </provider>
@@ -1151,7 +1151,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/applyedit.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="14" selection-start="542" selection-end="542" vertical-scroll-proportion="0.22336769">
+        <state line="14" column="54" selection-start="606" selection-end="606" vertical-scroll-proportion="0.24054983">
           <folding />
         </state>
       </provider>
