@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="791c978c-ba26-401b-9e58-19ef56b59fe4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/model/user/Base.php" afterPath="$PROJECT_DIR$/src/application/server/model/user/Base.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/view/page/management/edit.phtml" afterPath="$PROJECT_DIR$/src/application/server/view/page/management/edit.phtml" />
     </list>
     <ignored path="samp.iws" />
@@ -100,7 +101,7 @@
       <file leaf-file-name="edit.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/edit.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="42" selection-start="352" selection-end="352" vertical-scroll-proportion="0.14134276">
+            <state line="8" column="17" selection-start="327" selection-end="327" vertical-scroll-proportion="0.14134276">
               <folding />
             </state>
           </provider>
@@ -109,7 +110,7 @@
       <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/server/model/user/Base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="50" selection-start="2805" selection-end="2835" vertical-scroll-proportion="0.0">
+            <state line="86" column="124" selection-start="3699" selection-end="3699" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1144,14 +1145,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/model/user/Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="50" selection-start="2805" selection-end="2835" vertical-scroll-proportion="0.0">
+        <state line="86" column="124" selection-start="3699" selection-end="3699" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/edit.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="42" selection-start="352" selection-end="352" vertical-scroll-proportion="0.14134276">
+        <state line="8" column="17" selection-start="327" selection-end="327" vertical-scroll-proportion="0.14134276">
           <folding />
         </state>
       </provider>

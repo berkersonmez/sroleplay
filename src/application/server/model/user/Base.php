@@ -83,6 +83,10 @@ abstract class M_User_Base extends M_DBModel {
         return true;
     }
 
+    public function initTest() {
+        C_Database_SQL::executeSQL(self::$_dbo, C_Database_SQL::getDeleteQuery1Where("playeraccounts", "playerID"), array(19));
+    }
+
     public function deletePlayerFromAndDisapproveSelf() {
         if ($this->isApproved())
             C_Database_SQL::executeSQL(self::$_dbo, C_Database_SQL::getDeleteQuery1Where("playeraccounts", "playerID"), array($this->playerID));

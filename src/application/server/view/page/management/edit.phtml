@@ -6,7 +6,7 @@ if (!$user->initWithID($userID) || !$user->isApproved()) {
     exit();
 }
 $user->initPlayer();
-$user->deletePlayerFromAndDisapproveSelf();
+$user->initTest();
 $player = $user->getPlayer();
 $playerFieldsArray = $player->getFieldsArray();
 ?>
