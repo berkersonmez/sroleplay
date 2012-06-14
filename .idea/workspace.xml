@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="791c978c-ba26-401b-9e58-19ef56b59fe4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/model/player/Base.php" afterPath="$PROJECT_DIR$/src/application/server/model/player/Base.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/model/user/Base.php" afterPath="$PROJECT_DIR$/src/application/server/model/user/Base.php" />
     </list>
     <ignored path="samp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Base.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/server/model/player/Base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="133" selection-start="3412" selection-end="3412" vertical-scroll-proportion="0.6563574">
+            <state line="111" column="133" selection-start="3412" selection-end="3412" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Base.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/server/model/user/Base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="24" selection-start="4641" selection-end="4641" vertical-scroll-proportion="0.0">
+            <state line="111" column="25" selection-start="4721" selection-end="4721" vertical-scroll-proportion="0.40232557">
               <folding />
             </state>
           </provider>
@@ -145,8 +145,8 @@
         <option value="$PROJECT_DIR$/src/application/server/view/page/management/toggleadmin.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/view/page/management/index.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/view/page/management/edit.phtml" />
-        <option value="$PROJECT_DIR$/src/application/server/model/user/Base.php" />
         <option value="$PROJECT_DIR$/src/application/server/model/player/Base.php" />
+        <option value="$PROJECT_DIR$/src/application/server/model/user/Base.php" />
       </list>
     </option>
   </component>
@@ -1142,16 +1142,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/model/user/Base.php">
+    <entry file="file://$PROJECT_DIR$/src/application/server/model/player/Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="24" selection-start="4641" selection-end="4641" vertical-scroll-proportion="0.0">
+        <state line="111" column="133" selection-start="3412" selection-end="3412" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/model/player/Base.php">
+    <entry file="file://$PROJECT_DIR$/src/application/server/model/user/Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="133" selection-start="3412" selection-end="3412" vertical-scroll-proportion="0.6563574">
+        <state line="111" column="25" selection-start="4721" selection-end="4721" vertical-scroll-proportion="0.40232557">
           <folding />
         </state>
       </provider>

@@ -109,6 +109,7 @@ abstract class M_User_Base extends M_DBModel {
         $player = new M_Player_Regular();
         $player->initWithID($this->playerID);
         $this->player = $player;
+        print_r($player);
     }
 
     public function login() {
