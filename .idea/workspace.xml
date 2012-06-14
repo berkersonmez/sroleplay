@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="791c978c-ba26-401b-9e58-19ef56b59fe4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/view/layout/default/footer.phtml" afterPath="$PROJECT_DIR$/src/application/server/view/layout/default/footer.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml" afterPath="$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml" />
     </list>
     <ignored path="samp.iws" />
@@ -34,19 +33,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.phtml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="header.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="48" selection-start="601" selection-end="601" vertical-scroll-proportion="-5.625">
+            <state line="4" column="69" selection-start="210" selection-end="210" vertical-scroll-proportion="0.07067138">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.phtml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="footer.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/footer.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="76" selection-start="206" selection-end="206" vertical-scroll-proportion="0.10600707">
+            <state line="6" column="76" selection-start="206" selection-end="206" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -145,8 +144,8 @@
         <option value="$PROJECT_DIR$/src/application/server/controller/Config.php" />
         <option value="$PROJECT_DIR$/src/application/server/controller/security/Validation.php" />
         <option value="$PROJECT_DIR$/src/application/server/view/page/ajax/signup.phtml" />
-        <option value="$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/view/layout/default/footer.phtml" />
+        <option value="$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml" />
       </list>
     </option>
   </component>
@@ -1001,16 +1000,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml">
+    <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/footer.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="48" selection-start="601" selection-end="601" vertical-scroll-proportion="-5.625">
+        <state line="6" column="76" selection-start="206" selection-end="206" vertical-scroll-proportion="-3.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/footer.phtml">
+    <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="76" selection-start="206" selection-end="206" vertical-scroll-proportion="0.10600707">
+        <state line="4" column="69" selection-start="210" selection-end="210" vertical-scroll-proportion="0.07067138">
           <folding />
         </state>
       </provider>
