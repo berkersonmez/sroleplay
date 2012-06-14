@@ -1,6 +1,5 @@
 <?php
-class M_HTML_Form_Register extends M_HTML_Form_Base
-{
+class M_HTML_Form_Register extends M_HTML_Form_Base {
 
     public function htmlCode()
     {
@@ -9,43 +8,37 @@ class M_HTML_Form_Register extends M_HTML_Form_Base
     <div id="ajax-result"></div>
     <div class="control-group">
         <label class="control-label" for="reg_email"><?=C_T::_("E-mail")?></label>
-
         <div class="controls">
             <input type="text" class="input-xlarge" id="reg_email" name="reg_email"/>
         </div>
     </div>
     <div class="control-group">
         <label class="control-label" for="reg_pass"><?=C_T::_("Şifre")?></label>
-
         <div class="controls">
             <input type="password" class="input-xlarge" id="reg_pass" name="reg_pass"/>
         </div>
     </div>
     <div class="control-group">
         <label class="control-label" for="reg_passagain"><?=C_T::_("Şifre Tekrar")?></label>
-
         <div class="controls">
             <input type="password" class="input-xlarge" id="reg_passagain" name="reg_passagain"/>
         </div>
     </div>
-    <hr/>
+        <hr/>
     <div class="control-group">
         <label class="control-label" for="reg_name"><?=C_T::_("Karakter Adı")?></label>
-
         <div class="controls">
             <input type="text" class="input-xlarge" id="reg_name" name="reg_name"/>
         </div>
     </div>
     <div class="control-group">
         <label class="control-label" for="reg_surname"><?=C_T::_("Karakter Soyadı")?></label>
-
         <div class="controls">
             <input type="text" class="input-xlarge" id="reg_surname" name="reg_surname"/>
         </div>
     </div>
     <div class="control-group">
         <label class="control-label" for="reg_gender"><?=C_T::_("Karakter Cinsiyeti")?></label>
-
         <div class="controls">
             <select class="input-xlarge" id="reg_gender" name="reg_gender">
                 <option value="BI"><?=C_T::_("Belirsiz / Biseksüel")?></option>
@@ -56,25 +49,22 @@ class M_HTML_Form_Register extends M_HTML_Form_Base
     </div>
     <div class="control-group">
         <label class="control-label" for="reg_age"><?=C_T::_("Karakter Yaşı")?></label>
-
         <div class="controls">
             <select class="input-xlarge" id="reg_age" name="reg_age">
-                <? for ($i = 1; $i < 65; $i++) : ?>
-                <option value="<?=$i;?>"><?=$i;?></option>
+                <? for ($i = 1 ; $i < 65 ; $i++) :?>
+                    <option value="<?=$i;?>"><?=$i;?></option>
                 <? endfor; ?>
             </select>
         </div>
     </div>
     <div class="control-group">
         <label class="control-label" for="reg_bio"><?=C_T::_("Karakter Biyografisi")?></label>
-
         <div class="controls">
             <textarea class="input-xlarge" id="reg_bio" rows="3" name="reg_bio"></textarea>
         </div>
     </div>
     <div class="control-group">
         <label class="control-label" for="reg_public"></label>
-
         <div class="controls">
             <label class="checkbox">
                 <input type="checkbox" id="reg_public" name="reg_public"/>
@@ -84,7 +74,6 @@ class M_HTML_Form_Register extends M_HTML_Form_Base
     </div>
     <div class="control-group">
         <label class="control-label" for="reg_agreement"></label>
-
         <div class="controls">
             <label class="checkbox">
                 <input type="checkbox" id="reg_agreement" name="reg_agreement"/>
@@ -126,9 +115,9 @@ class M_HTML_Form_Register extends M_HTML_Form_Base
                     ARK = $form.find('input[name="ark"]').val(),
                     url = $form.attr('action');
                 $.ajax({
-                    type:'POST',
-                    url:url,
-                    data:{
+                    type: 'POST',
+                    url: url,
+                    data: {
                         reg_email:regEmail,
                         reg_pass:regPass,
                         reg_passagain:regPassagain,
@@ -140,16 +129,16 @@ class M_HTML_Form_Register extends M_HTML_Form_Base
                         reg_public:regPublic,
                         reg_agreement:regAgreement,
                         ark:ARK},
-                    dataType:"json",
-                    success:function (data) {
+                    dataType: "json",
+                    success: function(data){
                         $("#submit_reg").removeAttr("disabled").removeClass("disabled");
                         $("#ajax-result").empty().append(ajaxResponse(data));
                         if (ajaxSuccess) {
                             window.location = 'index.php?register=successful';
                         }
                     },
-                    error:function (x, y, z) {
-                        $("#ajax-result").empty().append(x + y + z);
+                    error: function(x, y, z) {
+                        $("#ajax-result").empty().append(x+y+z);
                     }
                 });
             });
