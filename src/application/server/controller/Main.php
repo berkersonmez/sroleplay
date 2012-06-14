@@ -90,7 +90,7 @@ class C_Main extends C_Config {
     }
 
     public static function setErrorReportings() {
-        error_reporting(E_ALL);
+        error_reporting(E_ALL ^ E_NOTICE);
         ini_set('display_errors', 1);
     }
 

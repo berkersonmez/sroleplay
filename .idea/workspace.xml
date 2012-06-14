@@ -4,6 +4,7 @@
     <list default="true" id="791c978c-ba26-401b-9e58-19ef56b59fe4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/controller/Main.php" afterPath="$PROJECT_DIR$/src/application/server/controller/Main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/model/player/Base.php" afterPath="$PROJECT_DIR$/src/application/server/model/player/Base.php" />
     </list>
     <ignored path="samp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Base.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/server/model/player/Base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="24" selection-start="3509" selection-end="3509" vertical-scroll-proportion="-17.4">
+            <state line="139" column="22" selection-start="4256" selection-end="4256" vertical-scroll-proportion="0.8231132">
               <folding />
             </state>
           </provider>
@@ -43,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/server/controller/Main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="29" selection-start="2373" selection-end="2373" vertical-scroll-proportion="0.49828178">
+            <state line="92" column="42" selection-start="2386" selection-end="2386" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,8 +146,8 @@
         <option value="$PROJECT_DIR$/src/application/server/view/page/management/edit.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/model/user/Base.php" />
         <option value="$PROJECT_DIR$/src/application/server/view/page/management/applyedit.phtml" />
-        <option value="$PROJECT_DIR$/src/application/server/model/player/Base.php" />
         <option value="$PROJECT_DIR$/src/application/server/controller/Main.php" />
+        <option value="$PROJECT_DIR$/src/application/server/model/player/Base.php" />
       </list>
     </option>
   </component>
@@ -1079,30 +1080,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/model/DBModel.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_9.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="15" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+        <state line="73" column="9" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/approve.phtml">
+    <entry file="file://$PROJECT_DIR$/src/application/server/controller/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="7" selection-end="328" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/controller/database/SQL.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/edit.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="88" selection-start="1011" selection-end="1016" vertical-scroll-proportion="-11.875">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1128,30 +1115,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_9.php">
+    <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/edit.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="9" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.33333334">
+        <state line="19" column="88" selection-start="1011" selection-end="1016" vertical-scroll-proportion="-11.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/model/player/Base.php">
+    <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/approve.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="24" selection-start="3509" selection-end="3509" vertical-scroll-proportion="-17.4">
+        <state line="2" column="0" selection-start="7" selection-end="328" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/controller/Config.php">
+    <entry file="file://$PROJECT_DIR$/src/application/server/controller/database/SQL.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="12" column="27" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/server/model/DBModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="15" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/controller/Main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="29" selection-start="2373" selection-end="2373" vertical-scroll-proportion="0.49828178">
+        <state line="92" column="42" selection-start="2386" selection-end="2386" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/server/model/player/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="22" selection-start="4256" selection-end="4256" vertical-scroll-proportion="0.8231132">
           <folding />
         </state>
       </provider>
