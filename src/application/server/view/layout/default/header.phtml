@@ -32,6 +32,9 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="#"><i class="icon-user"></i> <?=C_T::_("Profil")?></a></li>
+                        <? if (C_Session::getUser()->getRole()->canAccessManagementPanel()): ?>
+                        <li><a href="#"><i class="icon-lock"></i> <?=C_T::_("Admin")?></a></li>
+                        <? endif; ?>
                         <li class="divider"></li>
                         <li><a href="<?=C_Link::create("logout", "index");?>"><i class="icon-off"></i> <?=C_T::_("Çıkış Yap")?></a></li>
                     </ul>
