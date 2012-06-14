@@ -16,7 +16,7 @@ abstract class M_Player_Base extends M_DBModel {
     protected $playerPosX;
     protected $playerPosY;
     protected $playerPosZ;
-    protected $PlayerBankMoney;
+    protected $playerBankMoney;
     protected $playerHealth;
     protected $playerArmour;
     protected $playerAccent;
@@ -42,7 +42,7 @@ abstract class M_Player_Base extends M_DBModel {
     protected $playerMaterials;
     protected $playerGroupRank;
     protected $playerHours;
-    protected $PlayerWarning1;
+    protected $playerWarning1;
     protected $playerWarning2;
     protected $playerWarning3;
     protected $playerHospitalized;
