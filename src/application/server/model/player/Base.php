@@ -147,4 +147,9 @@ abstract class M_Player_Base extends M_DBModel {
         print_r(array_merge(array_values($newFieldsArray), array($this->playerID)));
     }
 
+    public function getPlayerMoney()
+    {
+        return $this->playerMoney;
+    }
+
 }

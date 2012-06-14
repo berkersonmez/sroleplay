@@ -18,6 +18,10 @@
             </li>
         </ul>
         <p>Yaş:<?= $user->getAge(); ?></p>
+        <? if ($user->isApproved()):
+        $user->initPlayer(); ?>
+        <p>Para:<?= $user->getPlayer()->getPlayerMoney(); ?></p>
+        <? endif; ?>
     <? else: ?>
 
     <? endif; ?>
