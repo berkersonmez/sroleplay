@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="791c978c-ba26-401b-9e58-19ef56b59fe4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/model/user/Base.php" afterPath="$PROJECT_DIR$/src/application/server/model/user/Base.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/view/page/management/toggleadmin.phtml" afterPath="$PROJECT_DIR$/src/application/server/view/page/management/toggleadmin.phtml" />
     </list>
     <ignored path="samp.iws" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="toggleadmin.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/toggleadmin.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="47" selection-start="432" selection-end="432" vertical-scroll-proportion="0.18900344">
+            <state line="16" column="23" selection-start="620" selection-end="620" vertical-scroll-proportion="0.2749141">
               <folding />
             </state>
           </provider>
@@ -1152,7 +1151,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/toggleadmin.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="47" selection-start="432" selection-end="432" vertical-scroll-proportion="0.18900344">
+        <state line="16" column="23" selection-start="620" selection-end="620" vertical-scroll-proportion="0.2749141">
           <folding />
         </state>
       </provider>
