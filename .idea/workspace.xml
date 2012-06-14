@@ -28,7 +28,7 @@
       <file leaf-file-name="toggleadmin.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/toggleadmin.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="23" selection-start="620" selection-end="620" vertical-scroll-proportion="0.2749141">
+            <state line="13" column="46" selection-start="495" selection-end="495" vertical-scroll-proportion="0.22336769">
               <folding />
             </state>
           </provider>
@@ -1151,7 +1151,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/toggleadmin.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="23" selection-start="620" selection-end="620" vertical-scroll-proportion="0.2749141">
+        <state line="13" column="46" selection-start="495" selection-end="495" vertical-scroll-proportion="0.22336769">
           <folding />
         </state>
       </provider>

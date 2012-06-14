@@ -11,10 +11,10 @@ if ($user->initWithID($userID)) {
         print "zaa2";
     } else {
         print "zaa3";
-        if ($user->hireAdmin()) {
+        if ($user->hireAdmin()) {print "zaa4";
             header("location: ".C_Link::create("management", "index", array("result"=>"3")));
             exit();
-            print "zaa4";
+
         }
     }
 }
