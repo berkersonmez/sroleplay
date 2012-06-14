@@ -16,3 +16,7 @@ body {
     margin: 0 auto !important;
     float: none !important;
 }
+
+bottom-clear {
+    padding-bottom: 5px !important;
+}

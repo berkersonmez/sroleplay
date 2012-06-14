@@ -2,7 +2,7 @@
     <div class="well">
         <?php if (C_Security_Authenticate::loginControl()):
         $user = C_Session::getUser();?>
-        <h4><?= $user->getName(); ?>
+        <h4 class="bottom-clear"><?= $user->getName(); ?>
             <? if ($user->isApproved() == 1): ?>
             <span class="label label-success">Onaylandı</span>
         <? elseif ($user->isApproved() == 0): ?>
