@@ -4,7 +4,6 @@
     <list default="true" id="791c978c-ba26-401b-9e58-19ef56b59fe4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/public/style/css/main.css" afterPath="$PROJECT_DIR$/src/application/public/style/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml" afterPath="$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml" />
     </list>
     <ignored path="samp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,7 +100,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/public/style/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="34" selection-start="356" selection-end="356" vertical-scroll-proportion="0.34364262">
+            <state line="6" column="10" selection-start="80" selection-end="80" vertical-scroll-proportion="0.10309278">
               <folding />
             </state>
           </provider>
@@ -1072,7 +1071,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/public/style/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="34" selection-start="356" selection-end="356" vertical-scroll-proportion="0.34364262">
+        <state line="6" column="10" selection-start="80" selection-end="80" vertical-scroll-proportion="0.10309278">
           <folding />
         </state>
       </provider>
