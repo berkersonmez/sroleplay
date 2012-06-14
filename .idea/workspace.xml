@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="791c978c-ba26-401b-9e58-19ef56b59fe4" name="Default" comment="">
+    <list default="true" id="791c978c-ba26-401b-9e58-19ef56b59fe4" name="Default" comment="1">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/model/html/form/Register.php" afterPath="$PROJECT_DIR$/src/application/server/model/html/form/Register.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/view/page/management/index.phtml" afterPath="$PROJECT_DIR$/src/application/server/view/page/management/index.phtml" />
     </list>
     <ignored path="samp.iws" />
@@ -65,7 +64,7 @@
       <file leaf-file-name="index.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="213" column="26" selection-start="11056" selection-end="11056" vertical-scroll-proportion="0.8281787">
+            <state line="176" column="109" selection-start="9461" selection-end="9461" vertical-scroll-proportion="0.80756015">
               <folding />
             </state>
           </provider>
@@ -1148,7 +1147,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="213" column="26" selection-start="11056" selection-end="11056" vertical-scroll-proportion="0.8281787">
+        <state line="176" column="109" selection-start="9461" selection-end="9461" vertical-scroll-proportion="0.80756015">
           <folding />
         </state>
       </provider>

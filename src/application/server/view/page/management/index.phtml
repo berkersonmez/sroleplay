@@ -48,7 +48,7 @@
                                 <td><?= $userObj->getRole()->getName(); ?></td>
                                 <td><?= $userObj->getSkinID(); ?></td>
                                 <td><?= $userObj->getSqlid(); ?></td>
-                                <td><select id="<?= $userObj->getID(); ?>" class="admin-operation">
+                                <td><select id="<?= $userObj->getID(); ?>" class="admin-operation input-small">
                                     <option value="0">İşlem Seç...</option>
                                     <option value="1">Onayla</option>
                                     <option value="2">Reddet</option>
@@ -111,7 +111,7 @@
                                 <td><?= $userObj->getRole()->getName(); ?></td>
                                 <td><?= $userObj->getSkinID(); ?></td>
                                 <td><?= $userObj->getSqlid(); ?></td>
-                                <td><select id="<?= $userObj->getID(); ?>" class="admin-operation">
+                                <td><select id="<?= $userObj->getID(); ?>" class="admin-operation input-small">
                                     <option value="0">İşlem Seç...</option>
                                     <option value="2">Reddet</option>
                                     <? if (!$userObj->getRole()->canAccessManagementPanel()): ?>
@@ -174,7 +174,7 @@
                                 <td><?= $userObj->getRole()->getName(); ?></td>
                                 <td><?= $userObj->getSkinID(); ?></td>
                                 <td><?= $userObj->getSqlid(); ?></td>
-                                <td><select id="<?= $userObj->getID(); ?>" class="admin-operation">
+                                <td><select id="<?= $userObj->getID(); ?>" class="admin-operation input-small">
                                     <option value="0">İşlem Seç...</option>
                                     <option value="1">Onayla</option>
                                     <? if (!$userObj->getRole()->canAccessManagementPanel()): ?>
