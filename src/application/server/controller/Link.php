@@ -126,7 +126,7 @@ class C_Link {
                 }
                 break;*/
             default:
-                $link = "/index.php?page=" . $page . "&action=" . $action;
+                $link = "/sroleplay/src/application/public/index.php?page=" . $page . "&action=" . $action;
                 if ($additional) {
                     foreach ($additional as $add1 => $add2) {
                         $link .= "&" . $add1 . "=" . $add2;

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="791c978c-ba26-401b-9e58-19ef56b59fe4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/controller/Link.php" afterPath="$PROJECT_DIR$/src/application/server/controller/Link.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml" afterPath="$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml" />
     </list>
     <ignored path="samp.iws" />
@@ -33,10 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.phtml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="header.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="69" selection-start="210" selection-end="210" vertical-scroll-proportion="0.07067138">
+            <state line="3" column="29" selection-start="140" selection-end="140" vertical-scroll-proportion="-1.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Link.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/application/server/controller/Link.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="128" column="58" selection-start="5418" selection-end="5418" vertical-scroll-proportion="0.7209302">
               <folding />
             </state>
           </provider>
@@ -46,15 +56,6 @@
         <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/footer.phtml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="76" selection-start="206" selection-end="206" vertical-scroll-proportion="-3.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/server/controller/Config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="31" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/application/server/controller/security/Filter.php" />
         <option value="$PROJECT_DIR$/src/application/server/controller/Main.php" />
         <option value="$PROJECT_DIR$/src/application/server/model/image/User.php" />
         <option value="$PROJECT_DIR$/src/application/server/model/image/Base.php" />
@@ -146,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/application/server/view/page/ajax/signup.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/view/layout/default/footer.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml" />
+        <option value="$PROJECT_DIR$/src/application/server/controller/Link.php" />
       </list>
     </option>
   </component>
@@ -833,7 +834,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -930,11 +931,6 @@
         <state line="36" column="5" selection-start="957" selection-end="957" vertical-scroll-proportion="-19.5" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/controller/Link.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/controller/Layout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -1009,7 +1005,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="69" selection-start="210" selection-end="210" vertical-scroll-proportion="0.07067138">
+        <state line="3" column="29" selection-start="140" selection-end="140" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/server/controller/Link.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="58" selection-start="5418" selection-end="5418" vertical-scroll-proportion="0.7209302">
           <folding />
         </state>
       </provider>
