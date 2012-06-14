@@ -109,15 +109,8 @@ abstract class M_Player_Base extends M_DBModel {
     }
 
     public function initWithID($id) {
-        $result = C_Database_SQL::executeSQL(self::$_dbo, C_Database_SQL::getSelectQuery1Where1Limit("*", "atms", "atmId", 1), array(1));
-        $result2 = C_Database_SQL::executeSQL(self::$_dbo, C_Database_SQL::getSelectQuery("*", "atms"), array());
-        $result4 = C_Database_SQL::executeSQL(self::$_dbo, C_Database_SQL::getSelectQuery1Where1Limit("*", "playeraccounts", "playerID", 1), array(17));
-        $result3 = C_Database_SQL::executeSQL(self::$_dbo, C_Database_SQL::getDeleteQuery1Where("playeraccounts", "playerID"), array(17));
-
+        $result = C_Database_SQL::executeSQL(self::$_dbo, C_Database_SQL::getSelectQuery1Where1Limit("*", "playeraccounts", "playerID", 1), array($id));
         print_r($result);
-        print_r($result2);
-        print_r($result3);
-        print_r($result4);
         if (empty($result)) {return false;}
         $this->initSelf($result[0]);
         return true;
