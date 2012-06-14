@@ -46,12 +46,6 @@ abstract class M_User_Base extends M_DBModel {
         return true;
     }
 
-    public function initTEST($id) {
-        $result = C_Database_SQL::executeSQL(C_Database_Handler::getDBO(), C_Database_SQL::getSelectQuery1Where1Limit("*", "playeraccounts", "playerID", 1), array($id));
-        print_r($result);
-        return true;
-    }
-
     public function initWithSQLResult($sqlResult) {
         $result = $sqlResult;
         if (empty($result)) {return false;}
