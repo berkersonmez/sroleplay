@@ -53,7 +53,7 @@ while (true) {
         $success = false;
     }
 
-    if (!C_Security_Validation::validateName($regSurname)) {
+    if (!C_Security_Validation::validateSurname($regSurname)) {
         $ajaxObj->addMessage(C_Security_Validation::getErrorMessage());
         $success = false;
     }

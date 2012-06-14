@@ -50,11 +50,23 @@ class C_Security_Validation {
 
     public static function validateName($name) {
         if (mb_strlen($name, 'UTF-8') < C_Config::MIN_LENGTH_NAME) {
-            self::$errorMessage = C_T::_("Ad soyad " .C_Config::MIN_LENGTH_NAME. " karakterden kısa olamaz!");
+            self::$errorMessage = C_T::_("Ad " .C_Config::MIN_LENGTH_NAME. " karakterden kısa olamaz!");
             return false;
         }
         if (mb_strlen($name, 'UTF-8') > C_Config::MAX_LENGTH_NAME) {
-            self::$errorMessage = C_T::_("Ad soyad " .C_Config::MAX_LENGTH_NAME. " karakterden uzun olamaz!");
+            self::$errorMessage = C_T::_("Ad " .C_Config::MAX_LENGTH_NAME. " karakterden uzun olamaz!");
+            return false;
+        }
+        return true;
+    }
+
+    public static function validateSurname($name) {
+        if (mb_strlen($name, 'UTF-8') < C_Config::MIN_LENGTH_NAME) {
+            self::$errorMessage = C_T::_("Soyad " .C_Config::MIN_LENGTH_NAME. " karakterden kısa olamaz!");
+            return false;
+        }
+        if (mb_strlen($name, 'UTF-8') > C_Config::MAX_LENGTH_NAME) {
+            self::$errorMessage = C_T::_("Soyad " .C_Config::MAX_LENGTH_NAME. " karakterden uzun olamaz!");
             return false;
         }
         return true;

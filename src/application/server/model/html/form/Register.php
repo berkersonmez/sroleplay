@@ -29,12 +29,14 @@ class M_HTML_Form_Register extends M_HTML_Form_Base {
         <label class="control-label" for="reg_name"><?=C_T::_("Karakter Adı")?></label>
         <div class="controls">
             <input type="text" class="input-xlarge" id="reg_name" name="reg_name"/>
+            <p class="help-block">Türkçe karakter (ğ,ü,ş,ç,ö), noktalama işareti vb. girmeyiniz.</p>
         </div>
     </div>
     <div class="control-group">
         <label class="control-label" for="reg_surname"><?=C_T::_("Karakter Soyadı")?></label>
         <div class="controls">
             <input type="text" class="input-xlarge" id="reg_surname" name="reg_surname"/>
+            <p class="help-block">Türkçe karakter (ğ,ü,ş,ç,ö), noktalama işareti vb. girmeyiniz.</p>
         </div>
     </div>
     <div class="control-group">
