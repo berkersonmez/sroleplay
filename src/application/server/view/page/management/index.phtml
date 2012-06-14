@@ -48,7 +48,16 @@
                                 <td><?= $userObj->getRole()->getName(); ?></td>
                                 <td><?= $userObj->getSkinID(); ?></td>
                                 <td><?= $userObj->getSqlid(); ?></td>
-                                <td>sth</td>
+                                <td><select id="<?= $userObj->getID(); ?>" class="admin-operation">
+                                    <option value="0">İşlem Seç...</option>
+                                    <option value="1">Onayla</option>
+                                    <option value="2">Reddet</option>
+                                    <? if (!$userObj->getRole()->canAccessManagementPanel()): ?>
+                                        <option value="3">Admin Yap</option>
+                                    <? else: ?>
+                                        <option value="4">Adminlikten Çıkar</option>
+                                    <? endif; ?>
+                                </select></td>
 
                             </tr>
                                 <?
@@ -102,7 +111,16 @@
                                 <td><?= $userObj->getRole()->getName(); ?></td>
                                 <td><?= $userObj->getSkinID(); ?></td>
                                 <td><?= $userObj->getSqlid(); ?></td>
-                                <td>sth</td>
+                                <td><select id="<?= $userObj->getID(); ?>" class="admin-operation">
+                                    <option value="0">İşlem Seç...</option>
+                                    <option value="2">Reddet</option>
+                                    <? if (!$userObj->getRole()->canAccessManagementPanel()): ?>
+                                    <option value="3">Admin Yap</option>
+                                    <? else: ?>
+                                    <option value="4">Adminlikten Çıkar</option>
+                                    <? endif; ?>
+                                    <option value="5">Düzenle</option>
+                                </select></td>
 
                             </tr>
                                 <?
@@ -156,8 +174,15 @@
                                 <td><?= $userObj->getRole()->getName(); ?></td>
                                 <td><?= $userObj->getSkinID(); ?></td>
                                 <td><?= $userObj->getSqlid(); ?></td>
-                                <td>sth</td>
-
+                                <td><select id="<?= $userObj->getID(); ?>" class="admin-operation">
+                                    <option value="0">İşlem Seç...</option>
+                                    <option value="1">Onayla</option>
+                                    <? if (!$userObj->getRole()->canAccessManagementPanel()): ?>
+                                    <option value="3">Admin Yap</option>
+                                    <? else: ?>
+                                    <option value="4">Adminlikten Çıkar</option>
+                                    <? endif; ?>
+                                </select></td>
                             </tr>
                                 <?
                             }
@@ -170,3 +195,24 @@
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    $(function () {
+        $(".admin-operation").change(function (event) {
+            var userID = $(this).attr('id');
+            switch($(this).val()) {
+                case "1":
+                    window.location = 'index.php?page=management&action=approve&userid='+userID;
+                    break;
+                case "2":
+                    window.location = 'index.php?page=management&action=reject&userid='+userID;
+                    break;
+                case "3": case "4":
+                    window.location = 'index.php?page=management&action=toggleadmin&userid='+userID;
+                    break;
+                case "5":
+                    window.location = 'index.php?page=management&action=edit&userid='+userID;
+                    break;
+            }
+        });
+    });
+</script>

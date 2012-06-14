@@ -43,9 +43,9 @@ class M_HTML_Form_Register extends M_HTML_Form_Base {
         <label class="control-label" for="reg_gender"><?=C_T::_("Karakter Cinsiyeti")?></label>
         <div class="controls">
             <select class="input-xlarge" id="reg_gender" name="reg_gender">
-                <option value="BI"><?=C_T::_("Belirsiz / Biseksüel")?></option>
-                <option value="MALE"><?=C_T::_("Erkek")?></option>
-                <option value="FEMALE"><?=C_T::_("Kadın")?></option>
+                <option value="0"><?=C_T::_("Belirsiz / Biseksüel")?></option>
+                <option value="1"><?=C_T::_("Erkek")?></option>
+                <option value="2"><?=C_T::_("Kadın")?></option>
             </select>
         </div>
     </div>
