@@ -127,6 +127,7 @@ abstract class M_Player_Base extends M_DBModel {
     }
 
     public function edit($newFieldsArray) {
+        print_r($newFieldsArray);
         $this->initSelf($newFieldsArray);
         $this->updateSelf();
     }

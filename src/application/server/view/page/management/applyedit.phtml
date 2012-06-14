@@ -11,8 +11,6 @@ $playerFieldsArray = $player->getFieldsArray();
 $newFieldValues = array();
 foreach($playerFieldsArray as $fieldKey => $fieldValue) {
     if (is_numeric($fieldKey)) continue;
-    print("KEY: ".$fieldKey. "<br>");
-    print("POST: ".$_POST['edit_'.$fieldKey]. "<br>");
     $newFieldValues[$fieldKey] = $_POST['edit_'.$fieldKey];
 }
 $user->editPlayer($newFieldValues);
