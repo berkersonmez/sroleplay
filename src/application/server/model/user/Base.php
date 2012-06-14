@@ -79,7 +79,7 @@ abstract class M_User_Base extends M_DBModel {
         $this->skin = new M_Image_User($this->id);
     }
 
-    public function printAvatar($width, $height) {
+    public function printSkin($width, $height) {
         $this->skin->printSkin($width, $height);
     }
 
