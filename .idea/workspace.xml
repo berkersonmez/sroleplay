@@ -64,7 +64,7 @@
       <file leaf-file-name="index.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="157" selection-start="2085" selection-end="2085" vertical-scroll-proportion="0.16395348">
+            <state line="41" column="149" selection-start="2077" selection-end="2077" vertical-scroll-proportion="0.21627907">
               <folding />
             </state>
           </provider>
@@ -1145,7 +1145,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/view/page/management/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="157" selection-start="2085" selection-end="2085" vertical-scroll-proportion="0.16395348">
+        <state line="41" column="149" selection-start="2077" selection-end="2077" vertical-scroll-proportion="0.21627907">
           <folding />
         </state>
       </provider>
