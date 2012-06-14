@@ -1,15 +1,23 @@
 <div class="span4">
     <div class="well" style="padding: 8px 0;">
-        <ul class="nav nav-list">
-            <li class="nav-header">
-                Hoşgeldin, ziyaretçi
-            </li>
-            <li>
+        <?php if (C_Security_Authenticate::loginControl()):
+        $user = C_Session::getUser();?>
+        <h3><? $user->getName(); ?></h3>
+            <? if ($user->isApproved() == 1): ?>
+        
+        <? elseif ($user->isApproved() == 0): ?>
+        <div class="alert alert-block">
+            <h4 class="alert-heading">Dikkat!</h4>
+            Bu karakter henüz onaylanmamıştır.
+        </div>
+        <? else: ?>
+        <div class="alert alert-error">
+            <h4 class="alert-heading">Dikkat!</h4>
+            Bu karakter reddedilmiştir.
+        </div>
+        <? endif; ?>
+    <? else: ?>
 
-            </li>
-            <li>
-                <a href="#">Library</a>
-            </li>
-        </ul>
+    <? endif; ?>
     </div>
 </div>

@@ -14,9 +14,10 @@ abstract class M_User_Base extends M_DBModel {
     protected $roleID;
     protected $role;
     protected $skinID;
+    protected $approved;
     protected $skin;
 
-    public function __construct($id = "", $name = "", $password = "", $email = "", $publicProfile = "", $age = "", $gender = "", $biography = "", $sqlid = "", $roleID = "", $skinID = "") {
+    public function __construct($id = "", $name = "", $password = "", $email = "", $publicProfile = "", $age = "", $gender = "", $biography = "", $sqlid = "", $roleID = "", $skinID = "", $approved = "") {
         parent::__construct();
         $this->id = $id;
         $this->name = $name;
@@ -29,6 +30,7 @@ abstract class M_User_Base extends M_DBModel {
         $this->sqlid = $sqlid;
         $this->roleID = $roleID;
         $this->skinID = $skinID;
+        $this->approved = $approved;
         $this->maintainSkin();
         $this->maintainRole();
     }
@@ -79,6 +81,10 @@ abstract class M_User_Base extends M_DBModel {
 
     public function printAvatar($width, $height) {
         $this->skin->printSkin($width, $height);
+    }
+
+    public function isApproved() {
+        return $this->approved;
     }
 
     public function getID()
