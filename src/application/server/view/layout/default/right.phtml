@@ -11,6 +11,14 @@
             <span class="label label-important">Reddedildi</span>
         <? endif; ?>
         </h4>
+        <ul class="thumbnails">
+            <li class="span3">
+                <div class="thumbnail">
+                    <? $user->printSkin(); ?>
+                    <p>Yaş:<?= $user->getAge(); ?></p>
+                </div>
+            </li>
+        </ul>
     <? else: ?>
 
     <? endif; ?>
