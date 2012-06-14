@@ -4,6 +4,40 @@
     <div class="span8">
     <? endif; ?>
     <h2>Admin Paneli</h2>
+        <?
+    switch (C_Security_Filter::numericFilter($_GET['result'])) {
+        case "1":
+            ?><div class="alert alert-success"><button class="close" data-dismiss="alert">×</button><?=C_T::_("Hesap onaylandı, oyuncu oluşturuldu!")?></div><?
+            break;
+        case "-1":
+            ?><div class="alert alert-error"><button class="close" data-dismiss="alert">×</button><?=C_T::_("Hesap onaylanamadı, hayırdır inşallah!")?></div><?
+            break;
+        case "2":
+            ?><div class="alert alert-success"><button class="close" data-dismiss="alert">×</button><?=C_T::_("Hesap reddedildi!")?></div><?
+            break;
+        case "-2":
+            ?><div class="alert alert-error"><button class="close" data-dismiss="alert">×</button><?=C_T::_("Hesap reddedilemedi, böyle hesap reddedilir mi be!")?></div><?
+            break;
+        case "3":
+            ?><div class="alert alert-success"><button class="close" data-dismiss="alert">×</button><?=C_T::_("Seçilen hesap artık admin!")?></div><?
+            break;
+        case "-3":
+            ?><div class="alert alert-error"><button class="close" data-dismiss="alert">×</button><?=C_T::_("Hata!")?></div><?
+            break;
+        case "4":
+            ?><div class="alert alert-success"><button class="close" data-dismiss="alert">×</button><?=C_T::_("Seçilen hesap artık admin değil!")?></div><?
+            break;
+        case "-4":
+            ?><div class="alert alert-error"><button class="close" data-dismiss="alert">×</button><?=C_T::_("Hata!")?></div><?
+            break;
+        case "5":
+            ?><div class="alert alert-success"><button class="close" data-dismiss="alert">×</button><?=C_T::_("Oyuncu başarıyla düzenlendi!")?></div><?
+            break;
+        case "-5":
+            ?><div class="alert alert-error"><button class="close" data-dismiss="alert">×</button><?=C_T::_("Oyuncu düzenlenemedi, hata oluştu!")?></div><?
+            break;
+    }
+?>
     <h3>Oyuncu Listesi</h3>
     <div class="accordion" id="accordion2">
         <div class="accordion-group">
