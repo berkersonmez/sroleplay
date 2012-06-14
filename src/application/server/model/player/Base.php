@@ -2,22 +2,110 @@
 
 abstract class M_Player_Base extends M_DBModel {
 
-    public function __construct($id = "", $name = "", $password = "", $email = "", $publicProfile = "", $age = "", $gender = "", $biography = "", $sqlid = "", $roleID = "", $skinID = "", $approved = "") {
+    protected $playerID;
+    protected $playerLevel;
+    protected $playerName;
+    protected $playerPassword;
+    protected $playerEmail;
+    protected $playerMoney;
+    protected $playerBanned;
+    protected $playerPublicProfile;
+    protected $playerAdminLevel;
+    protected $playerRegistrationDate;
+    protected $playerSkin;
+    protected $playerPosX;
+    protected $playerPosY;
+    protected $playerPosZ;
+    protected $PlayerBankMoney;
+    protected $playerHealth;
+    protected $playerArmour;
+    protected $playerAccent;
+    protected $playerSeconds;
+    protected $playerInterior;
+    protected $playerVirutalWorld;
+    protected $playerJob;
+    protected $playerWeapon0;
+    protected $playerWeapon1;
+    protected $playerWeapon2;
+    protected $playerWeapon3;
+    protected $playerWeapon4;
+    protected $playerWeapon5;
+    protected $playerWeapon6;
+    protected $playerWeapon7;
+    protected $playerWeapon8;
+    protected $playerWeapon9;
+    protected $playerWeapon10;
+    protected $playerWeapon11;
+    protected $playerWeapon12;
+    protected $playerJobSkill1;
+    protected $playerJobSkill2;
+    protected $playerMaterials;
+    protected $playerGroupRank;
+    protected $playerHours;
+    protected $PlayerWarning1;
+    protected $playerWarning2;
+    protected $playerWarning3;
+    protected $playerHospitalized;
+    protected $playerAdminName;
+    protected $playerFirstLogin;
+    protected $playerGender;
+    protected $playerPrisonID;
+    protected $playerPrisonTime;
+    protected $playerPhoneNumber;
+    protected $playerPhoneBook;
+    protected $playerIP;
+    protected $playerHelperLevel;
+    protected $playerRope;
+    protected $playerAdminDuty;
+    protected $playerCrimes;
+    protected $playerArrests;
+    protected $playerWarrants;
+    protected $playerPasswordToken;
+    protected $playerCarModel;
+    protected $playerCarMod0;
+    protected $playerCarMod1;
+    protected $playerCarMod2;
+    protected $playerCarMod3;
+    protected $playerCarMod4;
+    protected $playerCarMod5;
+    protected $playerCarMod6;
+    protected $playerCarMod7;
+    protected $playerCarMod8;
+    protected $playerCarMod9;
+    protected $playerCarMod10;
+    protected $playerCarMod11;
+    protected $playerCarMod12;
+    protected $playerCarPosX;
+    protected $playerCarPosY;
+    protected $playerCarPosZ;
+    protected $playerCarPosZAngle;
+    protected $playerCarColour;
+    protected $playerCarColour1;
+    protected $playerCarColour2;
+    protected $playerAge;
+    protected $playerCarPaintJob;
+    protected $playerCarLock;
+    protected $playerStatus;
+    protected $playerBiography;
+    protected $playerFightStyle;
+    protected $playerVIP;
+    protected $playerExpireVIP;
+    protected $playerCarWeapon1;
+    protected $playerCarWeapon2;
+    protected $playerCarWeapon3;
+    protected $playerCarWeapon4;
+    protected $playerCarWeapon5;
+    protected $playerCarTrunk1;
+    protected $playerCarTrunk2;
+    protected $playerPhoneCredit;
+    protected $playerWalkieTalkie;
+    protected $playerAdminTitle;
+    protected $playerCarLicensePlate;
+    protected $playerAdminPIN;
+    protected $sqlid;
+
+    public function __construct() {
         parent::__construct();
-        $this->id = $id;
-        $this->name = $name;
-        $this->password = $password;
-        $this->email = $email;
-        $this->publicProfile = $publicProfile;
-        $this->age = $age;
-        $this->gender = $gender;
-        $this->biography = $biography;
-        $this->sqlid = $sqlid;
-        $this->roleID = $roleID;
-        $this->skinID = $skinID;
-        $this->approved = $approved;
-        $this->maintainSkin();
-        $this->maintainRole();
     }
 
     public function initWithID($id) {
@@ -27,113 +115,12 @@ abstract class M_Player_Base extends M_DBModel {
         return true;
     }
 
-    public function initWithUsernameOrEmailAndPass($usernameOrEmail, $password) {
-        $result = C_Database_SQL::executeSQL(self::$_dbo, C_Database_SQL::getSelectQuery3Where_OR_AND("*", "paneluser", "name", "email", "password"), array($usernameOrEmail, $usernameOrEmail, $password));
-        if (empty($result)) {return false;}
-        $this->initSelf($result[0]);
-        $this->maintainRole();
-        $this->maintainSkin();
-        return true;
-    }
-
-    public function initAndRegister($name, $password, $email, $publicProfile, $age, $gender, $biography, $sqlid, $skinID) {
-        $result = C_Database_SQL::executeInsertSQL(self::$_dbo, C_Database_SQL::getInsertQuery(array("name", "password", "email", "publicProfile", "age", "gender", "biography", "sqlid", "skinID"),
-            "paneluser", 9), array($name, $password, $email, $publicProfile, $age, $gender, $biography, $sqlid, $skinID));
-        if (empty($result)) {return false;}
-        if ($this->initWithID($result)) {
-            return true;
+    public function getFieldsArray() {
+        $array = array();
+        foreach($this as $key => $value) {
+            $array[$key] = $value;
         }
-        return false;
+        return $array;
     }
-
-    public function login() {
-        C_Security_Authenticate::loginWithApprovedUser($this);
-    }
-
-    public function maintainRole() {
-        if ($this->roleID == 2) {
-            $this->role = new M_Role_User();
-        } else if ($this->roleID == 3) {
-            $this->role = new M_Role_Admin();
-        }
-    }
-
-    public function maintainSkin() {
-        $this->skin = new M_Image_User($this->id);
-    }
-
-    public function printSkin($width, $height) {
-        $this->skin->printSkin($width, $height);
-    }
-
-    public function isApproved() {
-        return $this->approved;
-    }
-
-    public function getID()
-    {
-        return $this->id;
-    }
-
-    public function getName()
-    {
-        return $this->name;
-    }
-
-    public function getPassword()
-    {
-        return $this->password;
-    }
-
-    public function getEmail()
-    {
-        return $this->email;
-    }
-
-    public function getPublicProfile()
-    {
-        return $this->publicProfile;
-    }
-
-    public function getAge()
-    {
-        return $this->age;
-    }
-
-    public function getGender()
-    {
-        return $this->gender;
-    }
-
-    public function getBiography()
-    {
-        return $this->biography;
-    }
-
-    public function getSqlid()
-    {
-        return $this->sqlid;
-    }
-
-    public function getRoleID()
-    {
-        return $this->roleID;
-    }
-
-    public function getRole()
-    {
-        return $this->role;
-    }
-
-    public function getSkinID()
-    {
-        return $this->skinID;
-    }
-
-    public function getSkin()
-    {
-        return $this->skin;
-    }
-
 
 }

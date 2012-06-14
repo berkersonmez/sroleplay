@@ -60,6 +60,7 @@
                             <th>Rol</th>
                             <th>Skin</th>
                             <th>sqlid</th>
+                            <th>playerID</th>
                             <th>İşlem</th>
                         </tr>
                         </thead>
@@ -82,6 +83,7 @@
                                 <td><?= $userObj->getRole()->getName(); ?></td>
                                 <td><?= $userObj->getSkinID(); ?></td>
                                 <td><?= $userObj->getSqlid(); ?></td>
+                                <td><?= $userObj->getPlayerID(); ?></td>
                                 <td><select id="<?= $userObj->getID(); ?>" class="admin-operation input-medium">
                                     <option value="0">İşlem Seç...</option>
                                     <option value="1">Onayla</option>
@@ -123,6 +125,7 @@
                             <th>Rol</th>
                             <th>Skin</th>
                             <th>sqlid</th>
+                            <th>playerID</th>
                             <th>İşlem</th>
                         </tr>
                         </thead>
@@ -145,6 +148,7 @@
                                 <td><?= $userObj->getRole()->getName(); ?></td>
                                 <td><?= $userObj->getSkinID(); ?></td>
                                 <td><?= $userObj->getSqlid(); ?></td>
+                                <td><?= $userObj->getPlayerID(); ?></td>
                                 <td><select id="<?= $userObj->getID(); ?>" class="admin-operation input-medium">
                                     <option value="0">İşlem Seç...</option>
                                     <option value="2">Reddet</option>
@@ -186,6 +190,7 @@
                             <th>Rol</th>
                             <th>Skin</th>
                             <th>sqlid</th>
+                            <th>playerID</th>
                             <th>İşlem</th>
                         </tr>
                         </thead>
@@ -208,6 +213,7 @@
                                 <td><?= $userObj->getRole()->getName(); ?></td>
                                 <td><?= $userObj->getSkinID(); ?></td>
                                 <td><?= $userObj->getSqlid(); ?></td>
+                                <td><?= $userObj->getPlayerID(); ?></td>
                                 <td><select id="<?= $userObj->getID(); ?>" class="admin-operation input-medium">
                                     <option value="0">İşlem Seç...</option>
                                     <option value="1">Onayla</option>
