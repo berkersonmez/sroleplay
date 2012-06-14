@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="791c978c-ba26-401b-9e58-19ef56b59fe4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/public/style/css/main.css" afterPath="$PROJECT_DIR$/src/application/public/style/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml" afterPath="$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml" />
     </list>
     <ignored path="samp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="right.phtml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="right.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="37" selection-start="586" selection-end="594" vertical-scroll-proportion="-8.75">
+            <state line="20" column="42" selection-start="787" selection-end="787" vertical-scroll-proportion="0.3533569">
               <folding />
             </state>
           </provider>
@@ -97,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/public/style/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="26" selection-start="302" selection-end="302" vertical-scroll-proportion="0.2749141">
+            <state line="16" column="26" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,8 +136,8 @@
         <option value="$PROJECT_DIR$/src/application/server/view/page/index/index.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/view/layout/default/footer.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/model/user/Base.php" />
-        <option value="$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml" />
         <option value="$PROJECT_DIR$/src/application/public/style/css/main.css" />
+        <option value="$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml" />
       </list>
     </option>
   </component>
@@ -1062,16 +1062,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml">
+    <entry file="file://$PROJECT_DIR$/src/application/public/style/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="37" selection-start="586" selection-end="594" vertical-scroll-proportion="-8.75">
+        <state line="16" column="26" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/public/style/css/main.css">
+    <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/right.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="26" selection-start="302" selection-end="302" vertical-scroll-proportion="0.2749141">
+        <state line="20" column="42" selection-start="787" selection-end="787" vertical-scroll-proportion="0.3533569">
           <folding />
         </state>
       </provider>
