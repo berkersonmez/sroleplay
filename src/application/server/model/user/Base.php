@@ -53,7 +53,7 @@ abstract class M_User_Base extends M_DBModel {
 
     public function initAndRegister($name, $password, $email, $publicProfile, $age, $gender, $biography, $sqlid, $skinID) {
         $result = C_Database_SQL::executeInsertSQL(self::$_dbo, C_Database_SQL::getInsertQuery(array("name", "password", "email", "publicProfile", "age", "gender", "biography", "sqlid", "skinID"),
-            "paneluser", 10), array($name, $password, $email, $publicProfile, $age, $gender, $biography, $sqlid, $skinID));
+            "paneluser", 9), array($name, $password, $email, $publicProfile, $age, $gender, $biography, $sqlid, $skinID));
         if (empty($result)) {return false;}
         if ($this->initWithID($result)) {
             return true;
