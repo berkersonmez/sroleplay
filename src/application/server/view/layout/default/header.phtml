@@ -1,0 +1,60 @@
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sroleplay!</title>
+    <link rel="stylesheet/less" href="/style/library/bootstrap/less/bootstrap.less">
+    <!--<link rel="stylesheet/css" href="/style/library/bootstrap/css/bootstrap.css">-->
+    <script src="/style/library/bootstrap/js/less.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/library/bootstrap/css/datepicker.css" />
+    <link rel="stylesheet" type="text/css" href="style/css/main.css" />
+    <script src="/style/js/jquery.js"></script>
+</head>
+<body>
+
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href="<?= C_Link::create("index", "index");?>">
+                SROLEPLAY
+            </a>
+            <ul class="nav">
+                <li class="active"><a href="#"><?=C_T::_("Anasayfa")?></a></li>
+
+            </ul>
+            <?php
+                if (C_Security_Authenticate::loginControl()):
+            ?>
+            <ul class="nav pull-right">
+                <li class="dropdown" id="menu1">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1" style="padding-top: 5px; padding-bottom: 5px;">
+                        <?=C_Session::getUser()->getName();?>
+                        <b class="caret" style="margin-top: 14px;"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"><i class="icon-user"></i> <?=C_T::_("Profil")?></a></li>
+                        <li class="divider"></li>
+                        <li><a href="<?=C_Link::create("logout", "index");?>"><i class="icon-off"></i> <?=C_T::_("Çıkış Yap")?></a></li>
+                    </ul>
+                </li>
+            </ul>
+            <?php
+                else:
+            ?><!--
+                    <ul class="pull-right nav">
+                        <li><a href="#"><span class="label label-info">Üye ol!</span></a></li>
+                    </ul>-->
+                    <div class="pull-right nav">
+                        <a class="btn btn-primary btn-nav" href="<?= C_Link::create("registry", "index");?>"><?=C_T::_("Kaydol!")?></a>
+                        <a class="btn btn-nav" href="<?= C_Link::create("login", "index");?>"><?=C_T::_("Giriş Yap!")?></a>
+                    </div>
+            <?php
+                endif;
+            ?>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row">

@@ -1,0 +1,30 @@
+<?php
+
+$loginEmailOrUser = C_Security_Filter::queryFilter(C_Security_Filter::stringFilter($_POST['login_username']));
+$loginPassword = $_POST['login_pass'];
+$loginRemember = C_Security_Filter::queryFilter(C_Security_Filter::stringFilter($_POST['login_remember']));
+$aRK = C_Security_Filter::queryFilter(C_Security_Filter::stringFilter($_POST['ark']));
+
+// -------
+$success = true;
+
+$ajaxObj = new C_Ajax();
+while (true) {
+    if (!C_Session::controlAjaxRequestKey($aRK)) {
+        $ajaxObj->addMessage(C_T::_("Geçersiz işlem!"));
+        $success = false;
+        break;
+    }
+    if (!C_Security_Authenticate::login($loginEmailOrUser, $loginPassword, $loginRemember)) {
+        $ajaxObj->addMessage(C_T::_("Giriş başarısız!"));
+        $success = false;
+    }
+    break;
+}
+if ($success) {
+    $ajaxObj->addMessage(C_T::_("Giriş başarılı!"));
+    C_Session::killAjaxRequestKey();
+    $ajaxObj->printResponse("success");
+} else {
+    $ajaxObj->printResponse("error");
+}

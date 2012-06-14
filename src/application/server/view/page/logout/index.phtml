@@ -1,0 +1,7 @@
+<div class="span8">
+    <?php
+    C_Security_Authenticate::logout();
+    header("location: ".C_Link::create("index", "index", array("logout"=>"successful")));
+    ?>
+    <div class="alert alert-success"><?=C_T::_("Çıkış Yapılıyor...")?></div>
+</div>

@@ -1,0 +1,90 @@
+<?php
+
+$regEmail = C_Security_Filter::queryFilter(C_Security_Filter::emailFilter($_POST['reg_email']));
+$regPass = C_Security_Filter::cryptPassword($_POST['reg_pass']);
+$regPassAgain = C_Security_Filter::cryptPassword($_POST['reg_passagain']);
+$regName = C_Security_Filter::queryFilter(C_Security_Filter::stringFilter($_POST['reg_name']));
+$regSurname = C_Security_Filter::queryFilter(C_Security_Filter::stringFilter($_POST['reg_surname']));
+$regAge = C_Security_Filter::queryFilter(C_Security_Filter::numericFilter($_POST['reg_age']));
+$regBio = C_Security_Filter::queryFilter(C_Security_Filter::stringFilter($_POST['reg_bio']));
+$regName = C_Security_Filter::queryFilter(C_Security_Filter::stringFilter($_POST['reg_name']));
+$regGender = C_Security_Filter::queryFilter(C_Security_Filter::stringFilter($_POST['reg_gender']));
+/*
+$regFacebookToken = CS_Filter::queryFilter(CS_Filter::stringFilter($_POST['regFacebookToken']));
+$regFacebookID = CS_Filter::queryFilter(CS_Filter::numericFilter($_POST['regFacebookID']));
+$regTwitterToken = CS_Filter::queryFilter(CS_Filter::stringFilter($_POST['regTwitterToken']));
+$regTwitterSecret = CS_Filter::queryFilter(CS_Filter::stringFilter($_POST['regTwitterSecret']));
+*/
+$agreementChecked = C_Security_Filter::queryFilter(C_Security_Filter::stringFilter($_POST['reg_agreement']));
+$regPublic = C_Security_Filter::queryFilter(C_Security_Filter::stringFilter($_POST['reg_public']));
+$aRK = C_Security_Filter::queryFilter(C_Security_Filter::stringFilter($_POST['ark']));
+
+$regSqid = 0;
+$regSkinID = 299;
+
+// -------
+$success = true;
+
+$ajaxObj = new C_Ajax();
+while (true) {
+    if (!C_Session::controlAjaxRequestKey($aRK)) {
+        $ajaxObj->addMessage(C_T::_("Geçersiz işlem!"));
+        $success = false;
+        break;
+    }
+
+    if (!$agreementChecked) {
+        $ajaxObj->addMessage("Hile yapmak yasaktır!");
+        $success = false;
+    }
+
+    if (!C_Security_Validation::validateEmail($regEmail)) {
+        $ajaxObj->addMessage(C_Security_Validation::getErrorMessage());
+        $success = false;
+    }
+
+    if (!C_Security_Validation::validatePass(C_Security_Filter::queryFilter($_POST['reg_pass']))) {
+        $ajaxObj->addMessage(C_Security_Validation::getErrorMessage());
+        $success = false;
+    }
+
+    if (!C_Security_Validation::validateName($regName)) {
+        $ajaxObj->addMessage(C_Security_Validation::getErrorMessage());
+        $success = false;
+    }
+
+    if (!C_Security_Validation::validateName($regSurname)) {
+        $ajaxObj->addMessage(C_Security_Validation::getErrorMessage());
+        $success = false;
+    }
+
+    if (!C_Security_Validation::validateAge($regAge)) {
+        $ajaxObj->addMessage(C_Security_Validation::getErrorMessage());
+        $success = false;
+    }
+
+    if (!C_Security_Validation::validateBio($regBio)) {
+        $ajaxObj->addMessage(C_Security_Validation::getErrorMessage());
+        $success = false;
+    }
+
+    if ($regPass != $regPassAgain) {
+        $ajaxObj->addMessage("Şifreler aynı değil.");
+        $success = false;
+    }
+    break;
+}
+if ($success) {
+    $user = new M_User_Regular();
+    if ($user->initAndRegister($regName . "_" . $regSurname, $regPass, $regEmail, $regPublic, $regAge, $regGender, $regBio, $regSqid, $regSkinID)) {
+        $user->login();
+        $ajaxObj->addMessage(C_T::_("Kayıt başarılı!"));
+        C_Session::killAjaxRequestKey();
+        $ajaxObj->printResponse("success");
+    } else {
+        $ajaxObj->addMessage(C_T::_("Bir sorun oluştu!"));
+        $ajaxObj->printResponse("error");
+    }
+} else {
+    $ajaxObj->printResponse("error");
+}

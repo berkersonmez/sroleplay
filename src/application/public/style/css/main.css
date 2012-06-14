@@ -1,0 +1,9 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.btn-nav {
+    padding: 3px 10px 4px 10px !important;
+    margin: 7px 10px 6px 0px !important;
+}

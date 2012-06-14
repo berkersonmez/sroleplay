@@ -1,0 +1,25 @@
+<div class="span12">
+    <div class="hero-unit">
+        <h1>Sroleplay</h1>
+        <p>Tagline</p>
+        <p>
+            <a class="btn btn-primary btn-large">
+                Daha fazla
+            </a>
+        </p>
+    </div>
+</div>
+<div class="span8">
+<?php
+    if (C_Security_Filter::stringFilter(C_Security_Filter::queryFilter($_GET['logout']))=="successful"):
+?>
+    <div class="alert alert-success"><button class="close" data-dismiss="alert">×</button><?=C_T::_("Çıkış başarılı!")?></div>
+        <?php
+    elseif (C_Security_Filter::stringFilter(C_Security_Filter::queryFilter($_GET['register']))=="successful"):
+    ?>
+    <div class="alert alert-success"><button class="close" data-dismiss="alert">×</button><?=C_T::_("Başarıyla üye oldunuz!")?></div>
+        <?
+        endif;
+        ?>
+
+</div>
