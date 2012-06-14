@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="791c978c-ba26-401b-9e58-19ef56b59fe4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/application/public/style/img/hero-bg.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/public/style/css/main.css" afterPath="$PROJECT_DIR$/src/application/public/style/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/application/server/view/page/index/index.phtml" afterPath="$PROJECT_DIR$/src/application/server/view/page/index/index.phtml" />
     </list>
     <ignored path="samp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,15 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Login.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/application/server/model/html/form/Login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="10" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-14.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/server/view/page/login/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,16 +46,25 @@
       <file leaf-file-name="header.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="40" selection-start="1338" selection-end="1338" vertical-scroll-proportion="-18.75">
+            <state line="32" column="46" selection-start="1415" selection-end="1415" vertical-scroll-proportion="-20.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.phtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/application/server/view/page/index/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="29" selection-start="736" selection-end="736" vertical-scroll-proportion="0.33568904">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/public/style/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="12" selection-start="169" selection-end="169" vertical-scroll-proportion="0.17182131">
+            <state line="10" column="12" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,7 +134,6 @@
         <option value="$PROJECT_DIR$/src/application/server/model/image/Base.php" />
         <option value="$PROJECT_DIR$/src/application/server/model/user/Regular.php" />
         <option value="$PROJECT_DIR$/src/application/server/controller/security/Authenticate.php" />
-        <option value="$PROJECT_DIR$/src/application/server/view/page/index/index.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/view/page/registry/index.phtml" />
         <option value="$PROJECT_DIR$/src/application/server/model/html/form/Login.php" />
         <option value="$PROJECT_DIR$/src/application/server/controller/Config.php" />
@@ -148,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/application/server/model/html/form/Register.php" />
         <option value="$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml" />
         <option value="$PROJECT_DIR$/src/application/public/style/css/main.css" />
+        <option value="$PROJECT_DIR$/src/application/server/view/page/index/index.phtml" />
       </list>
     </option>
   </component>
@@ -316,6 +315,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="samp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="srp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -942,11 +975,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/application/server/controller/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="31" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/footer.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="14" selection-start="144" selection-end="144" vertical-scroll-proportion="-3.75">
@@ -1034,16 +1062,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml">
+    <entry file="file://$PROJECT_DIR$/src/application/public/style/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="40" selection-start="1338" selection-end="1338" vertical-scroll-proportion="-18.75">
+        <state line="10" column="12" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/public/style/css/main.css">
+    <entry file="file://$PROJECT_DIR$/src/application/server/view/layout/default/header.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="169" selection-end="169" vertical-scroll-proportion="0.17182131">
+        <state line="32" column="46" selection-start="1415" selection-end="1415" vertical-scroll-proportion="-20.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/server/view/page/index/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="29" selection-start="736" selection-end="736" vertical-scroll-proportion="0.33568904">
           <folding />
         </state>
       </provider>
