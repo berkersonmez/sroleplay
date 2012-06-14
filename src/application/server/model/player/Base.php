@@ -116,11 +116,24 @@ abstract class M_Player_Base extends M_DBModel {
     }
 
     public function getFieldsArray() {
+        return get_object_vars($this);
+        /*
         $array = array();
         foreach($this as $key => $value) {
             $array[$key] = $value;
         }
         return $array;
+        */
+    }
+
+    public function edit($newFieldsArray) {
+        $this->initSelf($newFieldsArray);
+        $this->updateSelf();
+    }
+
+    public function updateSelf() {
+        $array = $this->getFieldsArray();
+        C_Database_SQL::executeSQL(self::$_dbo, C_Database_SQL::getUpdateQuery1Where(array_keys($array), "playeraccounts", count($array), "playerID"), array_merge(array_values($array), array($this->playerID)));
     }
 
 }

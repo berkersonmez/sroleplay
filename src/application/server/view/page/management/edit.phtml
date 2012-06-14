@@ -9,10 +9,11 @@ $user->initPlayer();
 $player = $user->getPlayer();
 $playerFieldsArray = $player->getFieldsArray();
 ?>
-<form class="form-horizontal" name="form_playeredit" id="form_playeredit" action="<?=C_Link::create("management", "applyedit");?>" method="POST">
+<form class="form-horizontal" name="form_playeredit" id="form_playeredit" action="<?=C_Link::create("management", "applyedit", array("userid" => $userID));?>" method="POST">
     <fieldset>
         <legend><?=C_T::_("Oyuncu Düzenleme Formu");?></legend>
-        <? foreach($playerFieldsArray as $fieldKey => $fieldValue): ?>
+        <? foreach($playerFieldsArray as $fieldKey => $fieldValue):
+        if (is_numeric($fieldKey)) continue; ?>
         <div class="control-group">
             <label class="control-label" for="edit_<?=$fieldKey;?>"><?=$fieldKey;?></label>
             <div class="controls">

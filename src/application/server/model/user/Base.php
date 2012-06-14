@@ -111,6 +111,10 @@ abstract class M_User_Base extends M_DBModel {
         $this->player = $player;
     }
 
+    public function editPlayer($newFieldsArray) {
+        $this->player->edit($newFieldsArray);
+    }
+
     public function login() {
         C_Security_Authenticate::loginWithApprovedUser($this);
     }
