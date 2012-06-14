@@ -139,6 +139,7 @@ abstract class M_Player_Base extends M_DBModel {
     }
 
     public function updateSelf($newFieldsArray) {
+        unset($newFieldsArray["playerID"]);
         $query = C_Database_SQL::getUpdateQuery1Where(array_keys($newFieldsArray), "playeraccounts", count($newFieldsArray), "playerID");
         print($query);
         C_Database_SQL::executeSQL(self::$_dbo, $query, array_merge(array_values($newFieldsArray), array($this->playerID)));
